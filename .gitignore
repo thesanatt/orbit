@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Jac database files
+src/.jac/
+
+# InsForge & AI agent skills
+.insforge
+.agent
+.agents
+.augment
+.claude
+.cline
+.github/copilot*
+.kilocode
+.qoder
+.qwen
+.roo
+.trae
+.windsurf
+
+# Reference repos
+reference/
+
+.jac/
+venv/
+
+# Internal planning docs (not for judges)
+demo/
+BOOTSTRAP_PROMPT.md
+GIT_STRATEGY.md
+AGENDA.md
+skills-lock.json
+.vercel
+
+# Pre-hackathon prep artifacts (not for judges)
+research/
+docs/jac/
+reboot.sh
+.logs/
+setup.sh
+CLAUDE.md
+.pytest_cache/

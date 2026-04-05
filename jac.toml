@@ -1,0 +1,15 @@
+[project]
+name = "orbit"
+version = "1.0.0"
+description = "Your Second Brain That Actually Thinks"
+entry-point = "src/app.jac"
+
+[serve]
+base_route_app = "app"
+
+[plugins.byllm.model]
+default_model = "groq/llama-3.1-8b-instant"
+
+[plugins.byllm.litellm]
+local_cost_map = true
+drop_params = true

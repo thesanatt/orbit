@@ -1,0 +1,3815 @@
+{
+  "nodes": [
+    {
+      "id": "spaced_repetition",
+      "type": "Concept",
+      "name": "Spaced Repetition",
+      "description": "Review your notes a little every day instead of cramming. Actually works.",
+      "domain": "learning",
+      "importance": 0.9,
+      "depth": "deep"
+    },
+    {
+      "id": "active_recall",
+      "type": "Concept",
+      "name": "Active Recall",
+      "description": "Quiz yourself instead of re-reading. Way more effective.",
+      "domain": "learning",
+      "importance": 0.88,
+      "depth": "deep"
+    },
+    {
+      "id": "cramming",
+      "type": "Concept",
+      "name": "Cramming",
+      "description": "Pulling an all-nighter before the exam. Works for 12 hours then poof.",
+      "domain": "learning",
+      "importance": 0.75,
+      "depth": "intermediate"
+    },
+    {
+      "id": "sleep_memory",
+      "type": "Concept",
+      "name": "Sleep & Memory",
+      "description": "Your brain files memories while you sleep.",
+      "domain": "learning",
+      "importance": 0.82,
+      "depth": "intermediate"
+    },
+    {
+      "id": "feynman_technique",
+      "type": "Concept",
+      "name": "Feynman Technique",
+      "description": "If you can explain it to a 5-year-old, you actually get it.",
+      "domain": "learning",
+      "importance": 0.85,
+      "depth": "intermediate"
+    },
+    {
+      "id": "deliberate_practice",
+      "type": "Concept",
+      "name": "Deliberate Practice",
+      "description": "Practice the hard stuff, not the stuff you're already good at.",
+      "domain": "learning",
+      "importance": 0.87,
+      "depth": "deep"
+    },
+    {
+      "id": "flow_state",
+      "type": "Concept",
+      "name": "Flow State",
+      "description": "That zone where time disappears and you're locked in.",
+      "domain": "learning",
+      "importance": 0.8,
+      "depth": "intermediate"
+    },
+    {
+      "id": "pomodoro",
+      "type": "Concept",
+      "name": "Pomodoro",
+      "description": "25 min work, 5 min break. Repeat. Sounds dumb, works great.",
+      "domain": "learning",
+      "importance": 0.65,
+      "depth": "surface"
+    },
+    {
+      "id": "interleaving",
+      "type": "Concept",
+      "name": "Interleaving",
+      "description": "Mix up your study topics instead of doing one thing for 3 hours.",
+      "domain": "learning",
+      "importance": 0.7,
+      "depth": "intermediate"
+    },
+    {
+      "id": "growth_mindset",
+      "type": "Concept",
+      "name": "Growth Mindset",
+      "description": "You can get smarter with effort. Not everything is talent.",
+      "domain": "learning",
+      "importance": 0.78,
+      "depth": "intermediate"
+    },
+    {
+      "id": "learning_curves",
+      "type": "Concept",
+      "name": "Learning Curves",
+      "description": "You improve fast at first, then hit a wall, then break through.",
+      "domain": "learning",
+      "importance": 0.72,
+      "depth": "intermediate"
+    },
+    {
+      "id": "forgetting_curve",
+      "type": "Concept",
+      "name": "Forgetting Curve",
+      "description": "You forget 70% of stuff within a day unless you review it.",
+      "domain": "learning",
+      "importance": 0.83,
+      "depth": "deep"
+    },
+    {
+      "id": "teaching_to_learn",
+      "type": "Concept",
+      "name": "Teaching to Learn",
+      "description": "Explain it to someone else and you'll understand it way better.",
+      "domain": "learning",
+      "importance": 0.76,
+      "depth": "intermediate"
+    },
+    {
+      "id": "note_taking",
+      "type": "Concept",
+      "name": "Note-Taking",
+      "description": "Writing stuff down forces your brain to process it.",
+      "domain": "learning",
+      "importance": 0.6,
+      "depth": "surface"
+    },
+    {
+      "id": "retrieval_practice",
+      "type": "Concept",
+      "name": "Active Recall",
+      "description": "Quiz yourself instead of re-reading. Way more effective.",
+      "domain": "learning",
+      "importance": 0.8,
+      "depth": "intermediate"
+    },
+    {
+      "id": "algorithms_ds",
+      "type": "Concept",
+      "name": "Algorithms",
+      "description": "Organizing and processing data in coding. Core of CS.",
+      "domain": "coding",
+      "importance": 0.92,
+      "depth": "deep"
+    },
+    {
+      "id": "machine_learning",
+      "type": "Concept",
+      "name": "Machine Learning",
+      "description": "Teaching computers to spot patterns. Coding that learns.",
+      "domain": "coding",
+      "importance": 0.93,
+      "depth": "deep"
+    },
+    {
+      "id": "neural_networks",
+      "type": "Concept",
+      "name": "Neural Networks",
+      "description": "Layers of math that power AI. Advanced coding.",
+      "domain": "coding",
+      "importance": 0.88,
+      "depth": "deep"
+    },
+    {
+      "id": "debugging",
+      "type": "Concept",
+      "name": "Debugging",
+      "description": "Finding and fixing bugs. 90% of actual coding.",
+      "domain": "coding",
+      "importance": 0.8,
+      "depth": "intermediate"
+    },
+    {
+      "id": "version_control",
+      "type": "Concept",
+      "name": "Git",
+      "description": "Save every version of your code. Undo mistakes.",
+      "domain": "cs",
+      "importance": 0.82,
+      "depth": "intermediate"
+    },
+    {
+      "id": "technical_debt",
+      "type": "Concept",
+      "name": "Tech Debt",
+      "description": "Code shortcuts that save time now but bite you later.",
+      "domain": "cs",
+      "importance": 0.85,
+      "depth": "deep"
+    },
+    {
+      "id": "open_source",
+      "type": "Concept",
+      "name": "Open Source",
+      "description": "Free coding projects anyone can use and improve.",
+      "domain": "coding",
+      "importance": 0.72,
+      "depth": "intermediate"
+    },
+    {
+      "id": "agile_dev",
+      "type": "Concept",
+      "name": "Agile",
+      "description": "Ship small, get feedback, iterate. Don't over-plan.",
+      "domain": "cs",
+      "importance": 0.7,
+      "depth": "intermediate"
+    },
+    {
+      "id": "apis",
+      "type": "Concept",
+      "name": "APIs",
+      "description": "How different software talks to each other in coding.",
+      "domain": "coding",
+      "importance": 0.78,
+      "depth": "intermediate"
+    },
+    {
+      "id": "recursion",
+      "type": "Concept",
+      "name": "Recursion",
+      "description": "A coding concept that refers to itself. Google it.",
+      "domain": "coding",
+      "importance": 0.75,
+      "depth": "intermediate"
+    },
+    {
+      "id": "abstraction",
+      "type": "Concept",
+      "name": "Abstraction",
+      "description": "Hiding complicated coding behind a simple button.",
+      "domain": "coding",
+      "importance": 0.83,
+      "depth": "deep"
+    },
+    {
+      "id": "big_o",
+      "type": "Concept",
+      "name": "Big O",
+      "description": "How fast your coding runs as data gets bigger.",
+      "domain": "coding",
+      "importance": 0.8,
+      "depth": "intermediate"
+    },
+    {
+      "id": "side_projects",
+      "type": "Concept",
+      "name": "Side Projects",
+      "description": "Build coding projects for fun. Best way to learn.",
+      "domain": "coding",
+      "importance": 0.78,
+      "depth": "surface"
+    },
+    {
+      "id": "code_review",
+      "type": "Concept",
+      "name": "Code Review",
+      "description": "Someone reads your code before you ship. Better coding.",
+      "domain": "coding",
+      "importance": 0.68,
+      "depth": "intermediate"
+    },
+    {
+      "id": "stack_overflow",
+      "type": "Concept",
+      "name": "Stack Overflow",
+      "description": "Where you copy coding answers from. We all do it.",
+      "domain": "coding",
+      "importance": 0.55,
+      "depth": "surface"
+    },
+    {
+      "id": "compound_interest",
+      "type": "Concept",
+      "name": "Compound Growth",
+      "description": "Small gains add up exponentially over time.",
+      "domain": "career_money",
+      "importance": 0.9,
+      "depth": "deep"
+    },
+    {
+      "id": "networking_social",
+      "type": "Concept",
+      "name": "Networking",
+      "description": "Making real friends in your field. Not fake LinkedIn stuff.",
+      "domain": "career_money",
+      "importance": 0.85,
+      "depth": "intermediate"
+    },
+    {
+      "id": "resume_building",
+      "type": "Concept",
+      "name": "Resume",
+      "description": "One page that sells you. Numbers beat adjectives.",
+      "domain": "career_money",
+      "importance": 0.7,
+      "depth": "surface"
+    },
+    {
+      "id": "interview_prep",
+      "type": "Concept",
+      "name": "Interviews",
+      "description": "A skill you practice, not a knowledge test.",
+      "domain": "career_money",
+      "importance": 0.78,
+      "depth": "intermediate"
+    },
+    {
+      "id": "internship_hunting",
+      "type": "Concept",
+      "name": "Internships",
+      "description": "Real work experience in college. Apply earlier than you think.",
+      "domain": "career_money",
+      "importance": 0.75,
+      "depth": "surface"
+    },
+    {
+      "id": "salary_negotiation",
+      "type": "Concept",
+      "name": "Negotiation",
+      "description": "Ask for more. Most people leave money on the table.",
+      "domain": "career_money",
+      "importance": 0.72,
+      "depth": "intermediate"
+    },
+    {
+      "id": "personal_brand",
+      "type": "Concept",
+      "name": "Personal Brand",
+      "description": "Your reputation when you're not in the room.",
+      "domain": "career_money",
+      "importance": 0.7,
+      "depth": "intermediate"
+    },
+    {
+      "id": "mentorship",
+      "type": "Concept",
+      "name": "Mentorship",
+      "description": "Learn from someone who already did what you're trying to do.",
+      "domain": "career_money",
+      "importance": 0.8,
+      "depth": "intermediate"
+    },
+    {
+      "id": "first_principles",
+      "type": "Concept",
+      "name": "First Principles",
+      "description": "Break problems down to basics instead of copying what others did.",
+      "domain": "career_money",
+      "importance": 0.88,
+      "depth": "deep"
+    },
+    {
+      "id": "opportunity_cost",
+      "type": "Concept",
+      "name": "Opportunity Cost",
+      "description": "Every yes is a no to something else.",
+      "domain": "career_money",
+      "importance": 0.82,
+      "depth": "intermediate"
+    },
+    {
+      "id": "skill_stacking",
+      "type": "Concept",
+      "name": "Skill Stacking",
+      "description": "Being decent at 3 things beats being great at 1.",
+      "domain": "career_money",
+      "importance": 0.8,
+      "depth": "intermediate"
+    },
+    {
+      "id": "portfolio_projects",
+      "type": "Concept",
+      "name": "Portfolio",
+      "description": "Show what you built. Worth more than a GPA.",
+      "domain": "career_money",
+      "importance": 0.76,
+      "depth": "surface"
+    },
+    {
+      "id": "exercise_brain",
+      "type": "Concept",
+      "name": "Exercise & the Brain",
+      "description": "Working out literally makes your brain work better.",
+      "domain": "health",
+      "importance": 0.85,
+      "depth": "deep"
+    },
+    {
+      "id": "sleep_quality",
+      "type": "Concept",
+      "name": "Sleep Quality",
+      "description": "Good sleep > more hours of sleep.",
+      "domain": "health",
+      "importance": 0.88,
+      "depth": "deep"
+    },
+    {
+      "id": "habit_stacking",
+      "type": "Concept",
+      "name": "Habit Stacking",
+      "description": "Attach a new habit to one you already do.",
+      "domain": "health",
+      "importance": 0.72,
+      "depth": "intermediate"
+    },
+    {
+      "id": "decision_fatigue",
+      "type": "Concept",
+      "name": "Decision Fatigue",
+      "description": "The more choices you make, the worse your decisions get.",
+      "domain": "health",
+      "importance": 0.78,
+      "depth": "intermediate"
+    },
+    {
+      "id": "parkinsons_law",
+      "type": "Concept",
+      "name": "Parkinson's Law",
+      "description": "Work expands to fill whatever time you give it.",
+      "domain": "health",
+      "importance": 0.75,
+      "depth": "intermediate"
+    },
+    {
+      "id": "pareto_80_20",
+      "type": "Concept",
+      "name": "80/20 Rule",
+      "description": "80% of results come from 20% of effort.",
+      "domain": "health",
+      "importance": 0.85,
+      "depth": "deep"
+    },
+    {
+      "id": "deep_work",
+      "type": "Concept",
+      "name": "Deep Work",
+      "description": "Focused work with zero distractions. Where the real progress happens.",
+      "domain": "health",
+      "importance": 0.87,
+      "depth": "deep"
+    },
+    {
+      "id": "dopamine_motivation",
+      "type": "Concept",
+      "name": "Dopamine",
+      "description": "Your brain chases quick rewards. That's why you check your phone.",
+      "domain": "health",
+      "importance": 0.83,
+      "depth": "deep"
+    },
+    {
+      "id": "burnout",
+      "type": "Concept",
+      "name": "Burnout",
+      "description": "Running on empty. Not lazy, just spent.",
+      "domain": "health",
+      "importance": 0.78,
+      "depth": "intermediate"
+    },
+    {
+      "id": "work_life_balance",
+      "type": "Concept",
+      "name": "Work-Life Balance",
+      "description": "All work no play makes you worse at work too.",
+      "domain": "health",
+      "importance": 0.75,
+      "depth": "intermediate"
+    },
+    {
+      "id": "meditation_focus",
+      "type": "Concept",
+      "name": "Meditation",
+      "description": "Reps for your attention span. Even 5 minutes helps.",
+      "domain": "health",
+      "importance": 0.7,
+      "depth": "intermediate"
+    },
+    {
+      "id": "diet_cognition",
+      "type": "Concept",
+      "name": "Diet & Focus",
+      "description": "What you eat affects how well you think.",
+      "domain": "health",
+      "importance": 0.65,
+      "depth": "surface"
+    },
+    {
+      "id": "confirmation_bias",
+      "type": "Concept",
+      "name": "Confirmation Bias",
+      "description": "You notice stuff that agrees with you and ignore stuff that doesn't.",
+      "domain": "psychology",
+      "importance": 0.85,
+      "depth": "deep"
+    },
+    {
+      "id": "dunning_kruger",
+      "type": "Concept",
+      "name": "Dunning-Kruger",
+      "description": "Beginners think they know everything. Experts know they don't.",
+      "domain": "psychology",
+      "importance": 0.82,
+      "depth": "intermediate"
+    },
+    {
+      "id": "imposter_syndrome",
+      "type": "Concept",
+      "name": "Imposter Syndrome",
+      "description": "Feeling like a fraud even when you're doing fine.",
+      "domain": "psychology",
+      "importance": 0.83,
+      "depth": "intermediate"
+    },
+    {
+      "id": "sunk_cost",
+      "type": "Concept",
+      "name": "Sunk Cost Fallacy",
+      "description": "Sticking with something just because you already invested time in it.",
+      "domain": "psychology",
+      "importance": 0.8,
+      "depth": "intermediate"
+    },
+    {
+      "id": "analysis_paralysis",
+      "type": "Concept",
+      "name": "Overthinking",
+      "description": "Thinking so much you never actually decide.",
+      "domain": "psychology",
+      "importance": 0.75,
+      "depth": "intermediate"
+    },
+    {
+      "id": "second_order_thinking",
+      "type": "Concept",
+      "name": "Second-Order Effects",
+      "description": "Think about what happens AFTER what happens.",
+      "domain": "psychology",
+      "importance": 0.82,
+      "depth": "deep"
+    },
+    {
+      "id": "feedback_loops",
+      "type": "Concept",
+      "name": "Feedback Loops",
+      "description": "Output becomes input. Can spiral up (good) or down (bad).",
+      "domain": "psychology",
+      "importance": 0.87,
+      "depth": "deep"
+    },
+    {
+      "id": "survivorship_bias",
+      "type": "Concept",
+      "name": "Survivorship Bias",
+      "description": "You only see the winners. The failures are invisible.",
+      "domain": "psychology",
+      "importance": 0.78,
+      "depth": "intermediate"
+    },
+    {
+      "id": "cognitive_load",
+      "type": "Concept",
+      "name": "Cognitive Load",
+      "description": "Your brain can only hold so much at once.",
+      "domain": "psychology",
+      "importance": 0.75,
+      "depth": "intermediate"
+    },
+    {
+      "id": "system1_system2",
+      "type": "Concept",
+      "name": "Fast vs Slow Thinking",
+      "description": "Brain has a fast autopilot and a slow careful mode.",
+      "domain": "psychology",
+      "importance": 0.85,
+      "depth": "deep"
+    },
+    {
+      "id": "anchoring",
+      "type": "Concept",
+      "name": "Anchoring",
+      "description": "The first number you hear shapes every number after it.",
+      "domain": "psychology",
+      "importance": 0.72,
+      "depth": "intermediate"
+    },
+    {
+      "id": "loss_aversion",
+      "type": "Concept",
+      "name": "Loss Aversion",
+      "description": "Losing $10 hurts more than finding $10 feels good.",
+      "domain": "psychology",
+      "importance": 0.76,
+      "depth": "intermediate"
+    },
+    {
+      "id": "network_effects",
+      "type": "Concept",
+      "name": "Network Effects",
+      "description": "The more people use something, the more valuable it gets.",
+      "domain": "social",
+      "importance": 0.82,
+      "depth": "deep"
+    },
+    {
+      "id": "weak_ties",
+      "type": "Concept",
+      "name": "Weak Ties",
+      "description": "Acquaintances help you more than close friends for job hunting.",
+      "domain": "social",
+      "importance": 0.8,
+      "depth": "intermediate"
+    },
+    {
+      "id": "communication_skills",
+      "type": "Concept",
+      "name": "Communication",
+      "description": "Saying what you mean clearly. Harder than it sounds.",
+      "domain": "social",
+      "importance": 0.85,
+      "depth": "intermediate"
+    },
+    {
+      "id": "collaboration_competition",
+      "type": "Concept",
+      "name": "Teamwork vs Competition",
+      "description": "When to work together and when to compete.",
+      "domain": "social",
+      "importance": 0.72,
+      "depth": "intermediate"
+    },
+    {
+      "id": "group_dynamics",
+      "type": "Concept",
+      "name": "Group Dynamics",
+      "description": "How people act differently in groups vs alone.",
+      "domain": "social",
+      "importance": 0.65,
+      "depth": "surface"
+    },
+    {
+      "id": "empathy_leadership",
+      "type": "Concept",
+      "name": "Empathy",
+      "description": "Actually understanding how someone else feels.",
+      "domain": "social",
+      "importance": 0.7,
+      "depth": "intermediate"
+    },
+    {
+      "id": "diverse_perspectives",
+      "type": "Concept",
+      "name": "Diverse Thinking",
+      "description": "Different perspectives lead to better solutions.",
+      "domain": "social",
+      "importance": 0.68,
+      "depth": "intermediate"
+    },
+    {
+      "id": "building_trust",
+      "type": "Concept",
+      "name": "Trust",
+      "description": "Takes forever to build, seconds to break.",
+      "domain": "social",
+      "importance": 0.75,
+      "depth": "intermediate"
+    },
+    {
+      "id": "src_atomic_habits",
+      "type": "Source",
+      "name": "Atomic Habits by James Clear",
+      "description": "The definitive book on building good habits and breaking bad ones. Core idea: tiny 1% improvements compound into massive results. Focus on systems, not goals. Make good habits obvious, attractive, easy, and satisfying.",
+      "source_type": "book",
+      "content": "Key takeaways: habit stacking, environment design, identity-based habits, the plateau of latent potential.",
+      "url": "",
+      "summary": "Build better habits through small consistent changes that compound over time."
+    },
+    {
+      "id": "src_deep_work",
+      "type": "Source",
+      "name": "Deep Work by Cal Newport",
+      "description": "Cal Newport's argument that focused, distraction-free work is becoming both increasingly valuable and increasingly rare. The people who cultivate deep work will thrive; those who don't will fall behind.",
+      "source_type": "book",
+      "content": "Key strategies: schedule deep work blocks, embrace boredom, quit social media, drain the shallows.",
+      "url": "",
+      "summary": "The ability to focus without distraction is the superpower of the 21st century."
+    },
+    {
+      "id": "src_eecs281",
+      "type": "Source",
+      "name": "EECS 281 Lecture Notes",
+      "description": "Data Structures and Algorithms course at UMich. Covers sorting, searching, graph algorithms, dynamic programming, and complexity analysis. The hardest required CS class and the one that matters most for interviews.",
+      "source_type": "lecture",
+      "content": "Topics: BFS/DFS, Dijkstra's, MST, hash tables, heaps, dynamic programming, amortized analysis.",
+      "url": "",
+      "summary": "Core algorithms and data structures for computer science fundamentals."
+    },
+    {
+      "id": "src_internship_journal",
+      "type": "Source",
+      "name": "My Internship Journal",
+      "description": "Personal notes from summer internship. Lessons about working on a real team, code reviews, imposter syndrome, and the gap between school projects and production code.",
+      "source_type": "note",
+      "content": "Week 1: Everything is overwhelming. Week 4: Starting to contribute. Week 8: I actually belong here. Week 12: I know more than I thought.",
+      "url": "",
+      "summary": "Personal reflections on transitioning from student to professional developer."
+    },
+    {
+      "id": "src_huberman_sleep",
+      "type": "Source",
+      "name": "Podcast: Huberman Lab on Sleep",
+      "description": "Andrew Huberman's deep dive into the neuroscience of sleep. Morning sunlight, temperature regulation, caffeine timing, and why screens before bed are sabotaging your brain.",
+      "source_type": "podcast",
+      "content": "Actionable: morning sun within 30 min of waking, no caffeine after 2pm, cool bedroom, consistent wake time.",
+      "url": "https://hubermanlab.com",
+      "summary": "Evidence-based sleep optimization strategies from a Stanford neuroscientist."
+    },
+    {
+      "id": "src_3b1b_neural",
+      "type": "Source",
+      "name": "YouTube: 3Blue1Brown on Neural Networks",
+      "description": "Grant Sanderson's beautiful visual explanation of how neural networks actually work. Makes the math intuitive through stunning animations. The series that made a million people understand deep learning.",
+      "source_type": "video",
+      "content": "Covers: perceptrons, activation functions, backpropagation, gradient descent - all visually.",
+      "url": "https://youtube.com/3blue1brown",
+      "summary": "Visual, intuitive explanation of neural network fundamentals."
+    },
+    {
+      "id": "src_pg_great_work",
+      "type": "Source",
+      "name": "Article: Paul Graham - How to Do Great Work",
+      "description": "Paul Graham's essay on the common patterns behind great work across all fields. Work on what excites you, be relentlessly curious, and don't try to seem impressive - try to BE impressive.",
+      "source_type": "article",
+      "content": "Core advice: choose work that feels like play, work on your own projects, be prolific, and don't worry about seeming weird.",
+      "url": "http://paulgraham.com/greatwork.html",
+      "summary": "Universal principles for doing meaningful, impactful work in any field."
+    },
+    {
+      "id": "src_naval_leverage",
+      "type": "Source",
+      "name": "Tweet Thread: @naval on Leverage",
+      "description": "Naval Ravikant's viral thread on how to build wealth through leverage. Code and media are new forms of leverage that don't require money or permission. Build once, sell forever.",
+      "source_type": "tweet",
+      "content": "Key ideas: specific knowledge, accountability, leverage (labor, capital, code, media), judgment.",
+      "url": "https://twitter.com/naval",
+      "summary": "Modern wealth creation through permissionless leverage: code and media."
+    },
+    {
+      "id": "person_james_clear",
+      "type": "Person",
+      "name": "James Clear",
+      "description": "Author of Atomic Habits. Writes about habits, decision-making, and continuous improvement. His core message: you don't rise to the level of your goals, you fall to the level of your systems.",
+      "context": "Author of one of the most influential productivity books of the decade."
+    },
+    {
+      "id": "person_cal_newport",
+      "type": "Person",
+      "name": "Cal Newport",
+      "description": "CS professor at Georgetown and author of Deep Work, Digital Minimalism, and So Good They Can't Ignore You. Advocates for focused work and skill-building over passion-following.",
+      "context": "Combines academic CS career with popular writing on productivity and focus."
+    },
+    {
+      "id": "person_huberman",
+      "type": "Person",
+      "name": "Andrew Huberman",
+      "description": "Stanford neuroscience professor who runs the Huberman Lab podcast. Translates complex neuroscience into actionable health protocols. The go-to source for science-based health optimization.",
+      "context": "The professor who made neuroscience practical and accessible through his podcast."
+    },
+    {
+      "id": "person_pg",
+      "type": "Person",
+      "name": "Paul Graham",
+      "description": "Co-founder of Y Combinator, essayist, and Lisp programmer. His essays on startups, technology, and thinking have influenced a generation of founders and engineers.",
+      "context": "The godfather of startup culture and a legendary essayist."
+    },
+    {
+      "id": "person_karpathy",
+      "type": "Person",
+      "name": "Andrej Karpathy",
+      "description": "Former Tesla AI director, founding member of OpenAI. Known for making deep learning accessible through his YouTube lectures and blog posts. Built the nanoGPT implementation that taught thousands to understand transformers.",
+      "context": "The person who made deep learning education actually good."
+    },
+    {
+      "id": "person_professor",
+      "type": "Person",
+      "name": "My CS Professor",
+      "description": "The professor who pushed me hardest and taught me that struggling with a problem IS the learning, not a sign that you're not smart enough. Office hours changed everything.",
+      "context": "The mentor who shaped my approach to problem-solving and learning."
+    },
+    {
+      "id": "proj_orbit",
+      "type": "Project",
+      "name": "JacHacks 2026 Project (ORBIT)",
+      "description": "A knowledge management system that thinks in graphs. Built with Jac for the JacHacks hackathon. Walker agents traverse a knowledge graph to find hidden connections, answer questions, and fight knowledge decay.",
+      "status": "active"
+    },
+    {
+      "id": "proj_study_tracker",
+      "type": "Project",
+      "name": "Side Project: Study Tracker App",
+      "description": "A web app that tracks study sessions and uses spaced repetition to schedule reviews. Built with React + Node.js. My first full-stack project that people actually used.",
+      "status": "completed"
+    },
+    {
+      "id": "proj_internship_prep",
+      "type": "Project",
+      "name": "Summer Internship Prep",
+      "description": "Systematic preparation for technical interviews: LeetCode problems, system design study, behavioral question practice, and resume refinement. Treating the job search like a course with a syllabus.",
+      "status": "active"
+    },
+    {
+      "id": "brainstorming",
+      "type": "Concept",
+      "name": "Brainstorming",
+      "description": "Generate tons of ideas. Judge them later.",
+      "domain": "creativity",
+      "importance": 0.6,
+      "depth": "surface"
+    },
+    {
+      "id": "creative_block",
+      "type": "Concept",
+      "name": "Creative Block",
+      "description": "Staring at a blank page. Everyone gets it.",
+      "domain": "creativity",
+      "importance": 0.55,
+      "depth": "surface"
+    },
+    {
+      "id": "remix_culture",
+      "type": "Concept",
+      "name": "Remix Culture",
+      "description": "Everything is a remix of something else.",
+      "domain": "creativity",
+      "importance": 0.5,
+      "depth": "intermediate"
+    },
+    {
+      "id": "storytelling",
+      "type": "Concept",
+      "name": "Storytelling",
+      "description": "Humans remember stories way better than facts.",
+      "domain": "creativity",
+      "importance": 0.65,
+      "depth": "intermediate"
+    },
+    {
+      "id": "design_thinking",
+      "type": "Concept",
+      "name": "Design Thinking",
+      "description": "Understand the problem before jumping to solutions.",
+      "domain": "creativity",
+      "importance": 0.7,
+      "depth": "intermediate"
+    },
+    {
+      "id": "iteration_in_art",
+      "type": "Concept",
+      "name": "Iteration in Art",
+      "description": "First draft is always trash. That's normal.",
+      "domain": "creativity",
+      "importance": 0.55,
+      "depth": "intermediate"
+    },
+    {
+      "id": "constraint_breeds_creativity",
+      "type": "Concept",
+      "name": "Constraint Breeds Creativity",
+      "description": "Limitations force you to get creative.",
+      "domain": "creativity",
+      "importance": 0.65,
+      "depth": "deep"
+    },
+    {
+      "id": "cross_pollination",
+      "type": "Concept",
+      "name": "Cross-Pollination",
+      "description": "Ideas from one field solving problems in another.",
+      "domain": "creativity",
+      "importance": 0.7,
+      "depth": "deep"
+    },
+    {
+      "id": "budgeting",
+      "type": "Concept",
+      "name": "Budgeting",
+      "description": "Know where your money goes. Track it.",
+      "domain": "finance",
+      "importance": 0.55,
+      "depth": "surface"
+    },
+    {
+      "id": "investing_early",
+      "type": "Concept",
+      "name": "Investing Early",
+      "description": "Start investing now. Time in market beats timing the market.",
+      "domain": "finance",
+      "importance": 0.7,
+      "depth": "intermediate"
+    },
+    {
+      "id": "index_funds",
+      "type": "Concept",
+      "name": "Index Funds",
+      "description": "Buy a tiny piece of everything. Simple and it works.",
+      "domain": "finance",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "inflation",
+      "type": "Concept",
+      "name": "Inflation",
+      "description": "Your money loses value every year if it just sits there.",
+      "domain": "finance",
+      "importance": 0.55,
+      "depth": "surface"
+    },
+    {
+      "id": "side_hustles",
+      "type": "Concept",
+      "name": "Side Hustles",
+      "description": "Making money outside your main job or school.",
+      "domain": "finance",
+      "importance": 0.5,
+      "depth": "surface"
+    },
+    {
+      "id": "passive_income",
+      "type": "Concept",
+      "name": "Passive Income",
+      "description": "Money that comes in while you sleep.",
+      "domain": "finance",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "emergency_fund",
+      "type": "Concept",
+      "name": "Emergency Fund",
+      "description": "3-6 months of expenses saved up. Sleep better at night.",
+      "domain": "finance",
+      "importance": 0.5,
+      "depth": "surface"
+    },
+    {
+      "id": "lifestyle_creep",
+      "type": "Concept",
+      "name": "Lifestyle Creep",
+      "description": "Making more money but spending more too. Net zero.",
+      "domain": "finance",
+      "importance": 0.55,
+      "depth": "intermediate"
+    },
+    {
+      "id": "evolution",
+      "type": "Concept",
+      "name": "Evolution",
+      "description": "Things change over time to survive better.",
+      "domain": "science",
+      "importance": 0.75,
+      "depth": "intermediate"
+    },
+    {
+      "id": "natural_selection",
+      "type": "Concept",
+      "name": "Natural Selection",
+      "description": "What works survives. What doesn't, doesn't.",
+      "domain": "science",
+      "importance": 0.7,
+      "depth": "intermediate"
+    },
+    {
+      "id": "entropy",
+      "type": "Concept",
+      "name": "Entropy",
+      "description": "Everything falls apart without effort to maintain it.",
+      "domain": "science",
+      "importance": 0.75,
+      "depth": "deep"
+    },
+    {
+      "id": "chaos_theory",
+      "type": "Concept",
+      "name": "Chaos Theory",
+      "description": "Tiny changes can have massive unpredictable effects.",
+      "domain": "science",
+      "importance": 0.6,
+      "depth": "deep"
+    },
+    {
+      "id": "butterfly_effect",
+      "type": "Concept",
+      "name": "Butterfly Effect",
+      "description": "A butterfly flaps its wings and causes a hurricane somewhere.",
+      "domain": "science",
+      "importance": 0.55,
+      "depth": "surface"
+    },
+    {
+      "id": "ecosystems",
+      "type": "Concept",
+      "name": "Ecosystems",
+      "description": "Everything is connected. Remove one piece and the whole thing shifts.",
+      "domain": "science",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "adaptation",
+      "type": "Concept",
+      "name": "Adaptation",
+      "description": "Adjusting to new conditions to survive.",
+      "domain": "science",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "survival_of_fittest",
+      "type": "Concept",
+      "name": "Survival of the Fittest",
+      "description": "Not the strongest, but whoever adapts best.",
+      "domain": "science",
+      "importance": 0.55,
+      "depth": "surface"
+    },
+    {
+      "id": "flavor_pairing",
+      "type": "Concept",
+      "name": "Flavor Pairing",
+      "description": "Some ingredients just work together in cooking.",
+      "domain": "cooking",
+      "importance": 0.5,
+      "depth": "intermediate"
+    },
+    {
+      "id": "mise_en_place",
+      "type": "Concept",
+      "name": "Mise en Place",
+      "description": "Prep everything before you start cooking. Game changer.",
+      "domain": "cooking",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "recipe_vs_improvising",
+      "type": "Concept",
+      "name": "Recipe Following vs Improvising",
+      "description": "Follow the recipe first when cooking, then freestyle.",
+      "domain": "cooking",
+      "importance": 0.55,
+      "depth": "intermediate"
+    },
+    {
+      "id": "fermentation",
+      "type": "Concept",
+      "name": "Fermentation",
+      "description": "Letting time do the work in cooking. Patience pays off.",
+      "domain": "cooking",
+      "importance": 0.5,
+      "depth": "intermediate"
+    },
+    {
+      "id": "seasoning",
+      "type": "Concept",
+      "name": "Seasoning",
+      "description": "Salt, acid, fat, heat. The four pillars of cooking.",
+      "domain": "cooking",
+      "importance": 0.45,
+      "depth": "surface"
+    },
+    {
+      "id": "meal_prep",
+      "type": "Concept",
+      "name": "Meal Prep",
+      "description": "Cook once, eat all week. Cooking saves time and money.",
+      "domain": "cooking",
+      "importance": 0.5,
+      "depth": "surface"
+    },
+    {
+      "id": "progressive_overload",
+      "type": "Concept",
+      "name": "Progressive Overload",
+      "description": "Gradually increase the weight/difficulty. That's how you grow.",
+      "domain": "fitness",
+      "importance": 0.65,
+      "depth": "intermediate"
+    },
+    {
+      "id": "recovery",
+      "type": "Concept",
+      "name": "Recovery",
+      "description": "Rest is when you actually get stronger. Not during the workout.",
+      "domain": "fitness",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "muscle_memory",
+      "type": "Concept",
+      "name": "Muscle Memory",
+      "description": "Your body remembers movements you've practiced a lot.",
+      "domain": "fitness",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "team_chemistry",
+      "type": "Concept",
+      "name": "Team Chemistry",
+      "description": "When a team clicks, they're way better than the sum of parts.",
+      "domain": "fitness",
+      "importance": 0.55,
+      "depth": "intermediate"
+    },
+    {
+      "id": "practice_vs_game",
+      "type": "Concept",
+      "name": "Practice vs Game",
+      "description": "Practice is for building skills. Games are for using them.",
+      "domain": "fitness",
+      "importance": 0.55,
+      "depth": "intermediate"
+    },
+    {
+      "id": "coaching",
+      "type": "Concept",
+      "name": "Coaching",
+      "description": "Someone who sees your blind spots and pushes you past them.",
+      "domain": "fitness",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "culture_shock",
+      "type": "Concept",
+      "name": "Culture Shock",
+      "description": "Everything you thought was normal isn't. Eye-opening.",
+      "domain": "travel",
+      "importance": 0.55,
+      "depth": "intermediate"
+    },
+    {
+      "id": "language_learning",
+      "type": "Concept",
+      "name": "Language Learning",
+      "description": "Best way to understand how other people think.",
+      "domain": "travel",
+      "importance": 0.65,
+      "depth": "intermediate"
+    },
+    {
+      "id": "perspective_shifts",
+      "type": "Concept",
+      "name": "Perspective Shifts",
+      "description": "Seeing things from a totally different angle changes everything.",
+      "domain": "travel",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "comfort_zone",
+      "type": "Concept",
+      "name": "Comfort Zone",
+      "description": "Growth happens right outside it. Not way outside it.",
+      "domain": "travel",
+      "importance": 0.6,
+      "depth": "surface"
+    },
+    {
+      "id": "immersion",
+      "type": "Concept",
+      "name": "Immersion",
+      "description": "Jump in completely. Best way to learn anything fast.",
+      "domain": "travel",
+      "importance": 0.55,
+      "depth": "intermediate"
+    },
+    {
+      "id": "rhythm",
+      "type": "Concept",
+      "name": "Rhythm",
+      "description": "The backbone of music. Also shows up everywhere in life.",
+      "domain": "music",
+      "importance": 0.55,
+      "depth": "surface"
+    },
+    {
+      "id": "improvisation",
+      "type": "Concept",
+      "name": "Improvisation",
+      "description": "Making it up as you go, but within a structure.",
+      "domain": "music",
+      "importance": 0.65,
+      "depth": "deep"
+    },
+    {
+      "id": "music_theory",
+      "type": "Concept",
+      "name": "Music Theory",
+      "description": "The grammar of music. Learn the rules to break them.",
+      "domain": "music",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "practice_routines",
+      "type": "Concept",
+      "name": "Practice Routines",
+      "description": "Consistent daily practice beats random marathon sessions.",
+      "domain": "music",
+      "importance": 0.55,
+      "depth": "surface"
+    },
+    {
+      "id": "ear_training",
+      "type": "Concept",
+      "name": "Ear Training",
+      "description": "Training yourself to hear what most people miss.",
+      "domain": "music",
+      "importance": 0.5,
+      "depth": "intermediate"
+    },
+    {
+      "id": "first_impressions",
+      "type": "Concept",
+      "name": "First Impressions",
+      "description": "People judge you in 7 seconds. Unfair but real.",
+      "domain": "social_life",
+      "importance": 0.55,
+      "depth": "surface"
+    },
+    {
+      "id": "vulnerability",
+      "type": "Concept",
+      "name": "Vulnerability",
+      "description": "Being real with people is scary but builds deeper connections.",
+      "domain": "social_life",
+      "importance": 0.6,
+      "depth": "deep"
+    },
+    {
+      "id": "boundaries",
+      "type": "Concept",
+      "name": "Boundaries",
+      "description": "Knowing what you will and won't accept. Respect yourself.",
+      "domain": "social_life",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "active_listening",
+      "type": "Concept",
+      "name": "Active Listening",
+      "description": "Actually hearing what someone says, not just waiting to talk.",
+      "domain": "social_life",
+      "importance": 0.6,
+      "depth": "intermediate"
+    },
+    {
+      "id": "conflict_resolution",
+      "type": "Concept",
+      "name": "Conflict Resolution",
+      "description": "Fixing disagreements without making things worse.",
+      "domain": "social_life",
+      "importance": 0.6,
+      "depth": "intermediate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "spaced_repetition",
+      "target": "forgetting_curve",
+      "type": "builds_upon",
+      "strength": 0.95,
+      "relationship": "Spaced repetition is the direct countermeasure to the forgetting curve"
+    },
+    {
+      "source": "spaced_repetition",
+      "target": "active_recall",
+      "type": "relates_to",
+      "strength": 0.9,
+      "relationship": "Spaced repetition works best when combined with active recall during each review"
+    },
+    {
+      "source": "spaced_repetition",
+      "target": "retrieval_practice",
+      "type": "relates_to",
+      "strength": 0.88,
+      "relationship": "Both techniques leverage the testing effect to strengthen memories"
+    },
+    {
+      "source": "spaced_repetition",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.85,
+      "relationship": "Small daily reviews compound into massive long-term knowledge, just like interest on interest"
+    },
+    {
+      "source": "active_recall",
+      "target": "retrieval_practice",
+      "type": "relates_to",
+      "strength": 0.92,
+      "relationship": "Active recall IS retrieval practice - pulling information from memory strengthens it"
+    },
+    {
+      "source": "active_recall",
+      "target": "feynman_technique",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "The Feynman Technique forces active recall by making you reconstruct knowledge from scratch"
+    },
+    {
+      "source": "cramming",
+      "target": "forgetting_curve",
+      "type": "relates_to",
+      "strength": 0.88,
+      "relationship": "Cramming ignores the forgetting curve, leading to rapid knowledge loss after the exam"
+    },
+    {
+      "source": "cramming",
+      "target": "spaced_repetition",
+      "type": "contradicts",
+      "strength": 0.85,
+      "relationship": "Cramming is the opposite approach to spaced repetition - massed vs distributed practice"
+    },
+    {
+      "source": "cramming",
+      "target": "technical_debt",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Both are shortcuts that feel productive now but create compounding problems later"
+    },
+    {
+      "source": "sleep_memory",
+      "target": "sleep_quality",
+      "type": "relates_to",
+      "strength": 0.93,
+      "relationship": "Sleep quality directly determines how effectively your brain consolidates memories"
+    },
+    {
+      "source": "sleep_memory",
+      "target": "forgetting_curve",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Good sleep flattens the forgetting curve by strengthening memory consolidation"
+    },
+    {
+      "source": "sleep_memory",
+      "target": "learning_curves",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "Sleep deprivation creates artificial plateaus in learning progress"
+    },
+    {
+      "source": "feynman_technique",
+      "target": "teaching_to_learn",
+      "type": "relates_to",
+      "strength": 0.9,
+      "relationship": "Both use the same mechanism: explaining to others forces deeper understanding"
+    },
+    {
+      "source": "feynman_technique",
+      "target": "abstraction",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Simplifying complex ideas for others IS the skill of good abstraction"
+    },
+    {
+      "source": "feynman_technique",
+      "target": "communication_skills",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Both are about making complex ideas accessible to others"
+    },
+    {
+      "source": "deliberate_practice",
+      "target": "learning_curves",
+      "type": "builds_upon",
+      "strength": 0.85,
+      "relationship": "Deliberate practice is how you push through plateaus on the learning curve"
+    },
+    {
+      "source": "deliberate_practice",
+      "target": "flow_state",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Deliberate practice often leads to flow when the challenge matches your skill level"
+    },
+    {
+      "source": "deliberate_practice",
+      "target": "growth_mindset",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "Growth mindset is the belief that powers deliberate practice - effort leads to improvement"
+    },
+    {
+      "source": "deliberate_practice",
+      "target": "exercise_brain",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Progressive overload in the gym IS deliberate practice for your body"
+    },
+    {
+      "source": "flow_state",
+      "target": "deep_work",
+      "type": "relates_to",
+      "strength": 0.88,
+      "relationship": "Deep work creates the conditions for flow: uninterrupted focus on challenging work"
+    },
+    {
+      "source": "flow_state",
+      "target": "dopamine_motivation",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Flow state is associated with optimal dopamine levels - engaged but not overstimulated"
+    },
+    {
+      "source": "pomodoro",
+      "target": "deep_work",
+      "type": "relates_to",
+      "strength": 0.68,
+      "relationship": "Pomodoro is a structured approach to deep work - timed blocks of focused concentration"
+    },
+    {
+      "source": "pomodoro",
+      "target": "parkinsons_law",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Pomodoro uses artificial time pressure to combat work expanding to fill available time"
+    },
+    {
+      "source": "interleaving",
+      "target": "deliberate_practice",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Interleaving is a form of deliberate practice - mixing topics forces deeper discrimination"
+    },
+    {
+      "source": "growth_mindset",
+      "target": "imposter_syndrome",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Growth mindset is the antidote to imposter syndrome: struggle means learning, not inadequacy"
+    },
+    {
+      "source": "growth_mindset",
+      "target": "feedback_loops",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Growth mindset creates a positive feedback loop: effort \u2192 improvement \u2192 confidence \u2192 more effort"
+    },
+    {
+      "source": "learning_curves",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "Both show that consistent small inputs create exponential long-term results"
+    },
+    {
+      "source": "forgetting_curve",
+      "target": "technical_debt",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Knowledge decay and code decay follow similar exponential curves of compounding neglect"
+    },
+    {
+      "source": "teaching_to_learn",
+      "target": "communication_skills",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "Teaching forces you to develop clear communication about complex topics"
+    },
+    {
+      "source": "note_taking",
+      "target": "active_recall",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "Good note-taking involves processing and rephrasing, which engages active recall"
+    },
+    {
+      "source": "note_taking",
+      "target": "cognitive_load",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "Effective note-taking reduces cognitive load by externalizing information"
+    },
+    {
+      "source": "algorithms_ds",
+      "target": "big_o",
+      "type": "builds_upon",
+      "strength": 0.9,
+      "relationship": "Big O notation is how we analyze the efficiency of algorithms and data structures"
+    },
+    {
+      "source": "algorithms_ds",
+      "target": "recursion",
+      "type": "builds_upon",
+      "strength": 0.85,
+      "relationship": "Recursion is a fundamental algorithmic technique used in trees, sorting, and divide-and-conquer"
+    },
+    {
+      "source": "algorithms_ds",
+      "target": "interview_prep",
+      "type": "relates_to",
+      "strength": 0.88,
+      "relationship": "Algorithms and data structures are the core of technical interview preparation"
+    },
+    {
+      "source": "algorithms_ds",
+      "target": "networking_social",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "Social networks are literal graphs - the same algorithms apply to both"
+    },
+    {
+      "source": "machine_learning",
+      "target": "neural_networks",
+      "type": "builds_upon",
+      "strength": 0.92,
+      "relationship": "Neural networks are the dominant approach within machine learning"
+    },
+    {
+      "source": "machine_learning",
+      "target": "algorithms_ds",
+      "type": "builds_upon",
+      "strength": 0.8,
+      "relationship": "ML algorithms build on fundamental CS concepts like optimization, linear algebra, and data structures"
+    },
+    {
+      "source": "machine_learning",
+      "target": "first_principles",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "ML models that learn from raw data are doing first-principles reasoning from evidence"
+    },
+    {
+      "source": "machine_learning",
+      "target": "feedback_loops",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Training ML models IS a feedback loop: predict, compare to truth, adjust, repeat"
+    },
+    {
+      "source": "neural_networks",
+      "target": "abstraction",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Neural networks learn layers of abstraction - each layer captures higher-level features"
+    },
+    {
+      "source": "debugging",
+      "target": "first_principles",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "Good debugging IS first-principles thinking: break the problem down, question assumptions"
+    },
+    {
+      "source": "debugging",
+      "target": "system1_system2",
+      "type": "relates_to",
+      "strength": 0.68,
+      "relationship": "Debugging requires System 2 thinking - slow, logical analysis instead of gut reactions"
+    },
+    {
+      "source": "version_control",
+      "target": "collaboration_competition",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "Git enables collaboration by letting multiple people work on code without chaos"
+    },
+    {
+      "source": "version_control",
+      "target": "agile_dev",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Version control is essential infrastructure for agile development workflows"
+    },
+    {
+      "source": "technical_debt",
+      "target": "code_review",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "Code review is the primary defense against accumulating technical debt"
+    },
+    {
+      "source": "technical_debt",
+      "target": "second_order_thinking",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Technical debt happens when you only think first-order (ship fast) not second-order (maintenance cost)"
+    },
+    {
+      "source": "technical_debt",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.83,
+      "relationship": "Technical debt compounds like financial debt - small shortcuts accumulate exponential cleanup cost"
+    },
+    {
+      "source": "open_source",
+      "target": "personal_brand",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Open source contributions build your public reputation and demonstrate skills"
+    },
+    {
+      "source": "open_source",
+      "target": "collaboration_competition",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Open source is the ultimate example of collaboration beating competition"
+    },
+    {
+      "source": "open_source",
+      "target": "portfolio_projects",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Open source contributions ARE portfolio projects that show collaboration skills"
+    },
+    {
+      "source": "agile_dev",
+      "target": "feedback_loops",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Agile development is structured around rapid feedback loops: build, measure, learn"
+    },
+    {
+      "source": "agile_dev",
+      "target": "parkinsons_law",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "Sprints use Parkinson's Law: short deadlines force focused work and prevent scope creep"
+    },
+    {
+      "source": "apis",
+      "target": "abstraction",
+      "type": "builds_upon",
+      "strength": 0.85,
+      "relationship": "APIs ARE abstraction - hiding implementation behind a clean interface"
+    },
+    {
+      "source": "recursion",
+      "target": "first_principles",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Recursion IS first-principles thinking: break the problem into simpler versions of itself"
+    },
+    {
+      "source": "abstraction",
+      "target": "cognitive_load",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Good abstraction reduces cognitive load by hiding unnecessary complexity"
+    },
+    {
+      "source": "big_o",
+      "target": "pareto_80_20",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "Both are about identifying what matters most: the dominant term in Big O, the vital 20% in Pareto"
+    },
+    {
+      "source": "side_projects",
+      "target": "portfolio_projects",
+      "type": "relates_to",
+      "strength": 0.9,
+      "relationship": "Side projects become portfolio projects that demonstrate initiative and skill"
+    },
+    {
+      "source": "side_projects",
+      "target": "deliberate_practice",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Side projects are self-directed deliberate practice in a low-stakes environment"
+    },
+    {
+      "source": "code_review",
+      "target": "teaching_to_learn",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Reviewing others' code teaches you new approaches and forces you to articulate best practices"
+    },
+    {
+      "source": "code_review",
+      "target": "communication_skills",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Good code reviews require clear, constructive communication skills"
+    },
+    {
+      "source": "stack_overflow",
+      "target": "feynman_technique",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "Writing a good Stack Overflow question forces you to articulate what you don't understand"
+    },
+    {
+      "source": "compound_interest",
+      "target": "learning_curves",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "Both demonstrate that consistent small inputs create exponential long-term results"
+    },
+    {
+      "source": "compound_interest",
+      "target": "habit_stacking",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Habits compound like interest - tiny daily improvements stack into transformative results"
+    },
+    {
+      "source": "networking_social",
+      "target": "weak_ties",
+      "type": "builds_upon",
+      "strength": 0.88,
+      "relationship": "The weak ties theory explains why networking works - acquaintances bridge information gaps"
+    },
+    {
+      "source": "networking_social",
+      "target": "network_effects",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Your professional network exhibits network effects - each new connection multiplies your reach"
+    },
+    {
+      "source": "networking_social",
+      "target": "building_trust",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Effective networking is built on genuine trust, not transactional card-swapping"
+    },
+    {
+      "source": "resume_building",
+      "target": "personal_brand",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Your resume is one expression of your personal brand - both tell your professional story"
+    },
+    {
+      "source": "resume_building",
+      "target": "communication_skills",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "A resume is a communication challenge: convey your value in 7 seconds of scanning"
+    },
+    {
+      "source": "interview_prep",
+      "target": "deliberate_practice",
+      "type": "relates_to",
+      "strength": 0.85,
+      "relationship": "Interview prep IS deliberate practice - targeted repetition of specific problem types"
+    },
+    {
+      "source": "interview_prep",
+      "target": "internship_hunting",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Technical interview skills are the bottleneck in landing internships"
+    },
+    {
+      "source": "internship_hunting",
+      "target": "networking_social",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Referrals from your network are the most effective way to land internships"
+    },
+    {
+      "source": "internship_hunting",
+      "target": "portfolio_projects",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "Strong portfolio projects differentiate candidates in competitive internship applications"
+    },
+    {
+      "source": "salary_negotiation",
+      "target": "anchoring",
+      "type": "relates_to",
+      "strength": 0.85,
+      "relationship": "Anchoring effect is the core mechanism in salary negotiation - the first number sets expectations"
+    },
+    {
+      "source": "salary_negotiation",
+      "target": "loss_aversion",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Fear of losing the offer prevents people from negotiating - but companies expect it"
+    },
+    {
+      "source": "personal_brand",
+      "target": "network_effects",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Personal brand creates network effects: reputation attracts opportunities which build more reputation"
+    },
+    {
+      "source": "mentorship",
+      "target": "growth_mindset",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Good mentors model growth mindset - showing that expertise comes from sustained effort"
+    },
+    {
+      "source": "mentorship",
+      "target": "feedback_loops",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Mentorship accelerates growth by providing faster, higher-quality feedback loops"
+    },
+    {
+      "source": "first_principles",
+      "target": "debugging",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "Both require breaking down assumptions and reasoning from ground truth"
+    },
+    {
+      "source": "first_principles",
+      "target": "recursion",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Both involve decomposing problems into their most fundamental components"
+    },
+    {
+      "source": "opportunity_cost",
+      "target": "sunk_cost",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Sunk cost fallacy makes people ignore opportunity cost - focusing on what's lost instead of what's next"
+    },
+    {
+      "source": "opportunity_cost",
+      "target": "pareto_80_20",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "The 80/20 rule helps identify where opportunity cost is highest - doubling down on the vital few"
+    },
+    {
+      "source": "opportunity_cost",
+      "target": "decision_fatigue",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "Every decision has an opportunity cost, which is why too many decisions leads to fatigue"
+    },
+    {
+      "source": "skill_stacking",
+      "target": "personal_brand",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Your unique skill combination IS your personal brand - the intersection makes you irreplaceable"
+    },
+    {
+      "source": "skill_stacking",
+      "target": "diverse_perspectives",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Diverse skills give you diverse perspectives - seeing problems from multiple angles"
+    },
+    {
+      "source": "portfolio_projects",
+      "target": "side_projects",
+      "type": "relates_to",
+      "strength": 0.9,
+      "relationship": "The best portfolio projects start as side projects driven by genuine curiosity"
+    },
+    {
+      "source": "exercise_brain",
+      "target": "sleep_quality",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Regular exercise improves sleep quality, which improves cognitive performance"
+    },
+    {
+      "source": "exercise_brain",
+      "target": "dopamine_motivation",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Exercise naturally regulates dopamine levels, improving baseline motivation and focus"
+    },
+    {
+      "source": "exercise_brain",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Fitness compounds: consistent small workouts build into transformative health over years"
+    },
+    {
+      "source": "sleep_quality",
+      "target": "diet_cognition",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "Diet affects sleep quality and vice versa - both are pillars of cognitive performance"
+    },
+    {
+      "source": "sleep_quality",
+      "target": "decision_fatigue",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Poor sleep dramatically increases decision fatigue - you start the day already depleted"
+    },
+    {
+      "source": "habit_stacking",
+      "target": "feedback_loops",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Habit stacking creates positive feedback loops by chaining behaviors together"
+    },
+    {
+      "source": "habit_stacking",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Stacked habits compound: each tiny behavior reinforces the chain and builds momentum"
+    },
+    {
+      "source": "decision_fatigue",
+      "target": "deep_work",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Decision fatigue kills the ability to do deep work - automate small decisions to save willpower"
+    },
+    {
+      "source": "decision_fatigue",
+      "target": "pareto_80_20",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "The 80/20 rule reduces decision fatigue by eliminating decisions that don't matter much"
+    },
+    {
+      "source": "parkinsons_law",
+      "target": "agile_dev",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Agile sprints exploit Parkinson's Law - short deadlines prevent work from expanding endlessly"
+    },
+    {
+      "source": "pareto_80_20",
+      "target": "skill_stacking",
+      "type": "relates_to",
+      "strength": 0.68,
+      "relationship": "Get to top 25% in each skill (the easy 80% of progress) then stack them for unique value"
+    },
+    {
+      "source": "deep_work",
+      "target": "flow_state",
+      "type": "relates_to",
+      "strength": 0.88,
+      "relationship": "Deep work is the practice that enables flow state - protected focus on challenging tasks"
+    },
+    {
+      "source": "deep_work",
+      "target": "meditation_focus",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Meditation trains the same attention muscle that deep work requires"
+    },
+    {
+      "source": "deep_work",
+      "target": "dopamine_motivation",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Deep work requires resisting dopamine hits from distractions and finding reward in the task itself"
+    },
+    {
+      "source": "dopamine_motivation",
+      "target": "analysis_paralysis",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "Dopamine drives seeking behavior - sometimes endless research feels productive without action"
+    },
+    {
+      "source": "burnout",
+      "target": "work_life_balance",
+      "type": "relates_to",
+      "strength": 0.9,
+      "relationship": "Burnout is what happens when work-life balance fails for too long"
+    },
+    {
+      "source": "burnout",
+      "target": "deep_work",
+      "type": "contradicts",
+      "strength": 0.65,
+      "relationship": "Tension: deep work demands intense focus, but without boundaries it leads to burnout"
+    },
+    {
+      "source": "work_life_balance",
+      "target": "sleep_quality",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Protecting sleep is the foundation of work-life balance"
+    },
+    {
+      "source": "meditation_focus",
+      "target": "cognitive_load",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Meditation reduces background cognitive load by training your mind to let go of noise"
+    },
+    {
+      "source": "diet_cognition",
+      "target": "exercise_brain",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Diet and exercise are complementary pillars of brain performance"
+    },
+    {
+      "source": "confirmation_bias",
+      "target": "system1_system2",
+      "type": "builds_upon",
+      "strength": 0.82,
+      "relationship": "Confirmation bias is a System 1 shortcut - fast pattern matching that ignores contradicting evidence"
+    },
+    {
+      "source": "confirmation_bias",
+      "target": "machine_learning",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "Biased training data in ML is confirmation bias at scale - the model only learns what it's shown"
+    },
+    {
+      "source": "dunning_kruger",
+      "target": "imposter_syndrome",
+      "type": "relates_to",
+      "strength": 0.88,
+      "relationship": "Two sides of the same coin: beginners overestimate skill, experts underestimate it"
+    },
+    {
+      "source": "dunning_kruger",
+      "target": "learning_curves",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "The Dunning-Kruger curve maps onto the learning curve - the valley of despair is where real learning happens"
+    },
+    {
+      "source": "dunning_kruger",
+      "target": "growth_mindset",
+      "type": "relates_to",
+      "strength": 0.68,
+      "relationship": "Growth mindset helps you push through the Dunning-Kruger valley instead of quitting"
+    },
+    {
+      "source": "imposter_syndrome",
+      "target": "machine_learning",
+      "type": "relates_to",
+      "strength": 0.62,
+      "relationship": "Imposter syndrome is like an overfit model - memorizing failures while ignoring success data"
+    },
+    {
+      "source": "sunk_cost",
+      "target": "loss_aversion",
+      "type": "builds_upon",
+      "strength": 0.85,
+      "relationship": "Sunk cost fallacy is driven by loss aversion - we hate 'wasting' what we've already invested"
+    },
+    {
+      "source": "sunk_cost",
+      "target": "opportunity_cost",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Sunk cost thinking blinds you to opportunity cost - you focus on what's lost instead of what's possible"
+    },
+    {
+      "source": "analysis_paralysis",
+      "target": "decision_fatigue",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Analysis paralysis both causes and is caused by decision fatigue - a vicious cycle"
+    },
+    {
+      "source": "analysis_paralysis",
+      "target": "parkinsons_law",
+      "type": "relates_to",
+      "strength": 0.62,
+      "relationship": "Without a deadline, analysis expands to fill the time - Parkinson's Law applied to decisions"
+    },
+    {
+      "source": "second_order_thinking",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Compound interest IS second-order thinking about money: the return on the return"
+    },
+    {
+      "source": "second_order_thinking",
+      "target": "technical_debt",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "First-order: ship fast. Second-order: this creates debt. Third-order: the debt compounds and slows everything."
+    },
+    {
+      "source": "feedback_loops",
+      "target": "machine_learning",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "ML training IS a feedback loop: predict \u2192 compare to truth \u2192 adjust weights \u2192 repeat"
+    },
+    {
+      "source": "feedback_loops",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.73,
+      "relationship": "Compound interest is a positive feedback loop: gains create more gains"
+    },
+    {
+      "source": "survivorship_bias",
+      "target": "confirmation_bias",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Survivorship bias is a form of confirmation bias: you only see evidence that supports the success narrative"
+    },
+    {
+      "source": "survivorship_bias",
+      "target": "first_principles",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "First-principles thinking cuts through survivorship bias by looking at base rates, not anecdotes"
+    },
+    {
+      "source": "cognitive_load",
+      "target": "abstraction",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Abstraction is the programmer's tool for managing cognitive load"
+    },
+    {
+      "source": "cognitive_load",
+      "target": "deep_work",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Deep work reduces external cognitive load so you can focus all capacity on the hard problem"
+    },
+    {
+      "source": "system1_system2",
+      "target": "debugging",
+      "type": "relates_to",
+      "strength": 0.68,
+      "relationship": "Debugging requires shifting from System 1 (intuition) to System 2 (systematic analysis)"
+    },
+    {
+      "source": "anchoring",
+      "target": "salary_negotiation",
+      "type": "relates_to",
+      "strength": 0.85,
+      "relationship": "The anchoring effect is THE key mechanism in salary negotiation"
+    },
+    {
+      "source": "loss_aversion",
+      "target": "sunk_cost",
+      "type": "builds_upon",
+      "strength": 0.85,
+      "relationship": "Loss aversion drives the sunk cost fallacy - we hate losing our investment"
+    },
+    {
+      "source": "network_effects",
+      "target": "networking_social",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Professional networks exhibit network effects - more connections multiply your value"
+    },
+    {
+      "source": "network_effects",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Network effects compound: each new connection makes the network more valuable for everyone"
+    },
+    {
+      "source": "weak_ties",
+      "target": "algorithms_ds",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Weak ties in social networks function like BFS - exploring broadly through acquaintances"
+    },
+    {
+      "source": "weak_ties",
+      "target": "diverse_perspectives",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Weak ties connect you to diverse perspectives outside your immediate bubble"
+    },
+    {
+      "source": "communication_skills",
+      "target": "code_review",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Code review is a communication skill: giving clear, constructive, kind feedback"
+    },
+    {
+      "source": "communication_skills",
+      "target": "skill_stacking",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "Communication is the multiplier skill that makes all other skills more valuable"
+    },
+    {
+      "source": "collaboration_competition",
+      "target": "open_source",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Open source proves that collaboration at scale creates more value than competition"
+    },
+    {
+      "source": "collaboration_competition",
+      "target": "group_dynamics",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Understanding group dynamics is essential for effective collaboration"
+    },
+    {
+      "source": "group_dynamics",
+      "target": "empathy_leadership",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Leaders who understand group dynamics can navigate team conflicts and build cohesion"
+    },
+    {
+      "source": "empathy_leadership",
+      "target": "mentorship",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "The best mentors lead with empathy - understanding where the mentee actually is, not where they should be"
+    },
+    {
+      "source": "empathy_leadership",
+      "target": "building_trust",
+      "type": "relates_to",
+      "strength": 0.82,
+      "relationship": "Empathy builds trust: people follow leaders who genuinely understand and care about them"
+    },
+    {
+      "source": "diverse_perspectives",
+      "target": "first_principles",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "Diverse perspectives force first-principles thinking by challenging shared assumptions"
+    },
+    {
+      "source": "building_trust",
+      "target": "networking_social",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Genuine trust is the foundation of a strong professional network"
+    },
+    {
+      "source": "src_atomic_habits",
+      "target": "habit_stacking",
+      "type": "sourced_from",
+      "strength": 0.95,
+      "relationship": "James Clear coined the term 'habit stacking' in Atomic Habits"
+    },
+    {
+      "source": "src_atomic_habits",
+      "target": "compound_interest",
+      "type": "sourced_from",
+      "strength": 0.82,
+      "relationship": "Atomic Habits uses compound interest as its central metaphor for habit growth"
+    },
+    {
+      "source": "src_atomic_habits",
+      "target": "feedback_loops",
+      "type": "sourced_from",
+      "strength": 0.78,
+      "relationship": "The habit loop (cue, craving, response, reward) is a feedback loop"
+    },
+    {
+      "source": "src_atomic_habits",
+      "target": "growth_mindset",
+      "type": "sourced_from",
+      "strength": 0.7,
+      "relationship": "Identity-based habits are growth mindset in action"
+    },
+    {
+      "source": "src_deep_work",
+      "target": "deep_work",
+      "type": "sourced_from",
+      "strength": 0.98,
+      "relationship": "Cal Newport defined and popularized the concept of deep work"
+    },
+    {
+      "source": "src_deep_work",
+      "target": "flow_state",
+      "type": "sourced_from",
+      "strength": 0.75,
+      "relationship": "Deep Work discusses flow as the result of sustained focused work"
+    },
+    {
+      "source": "src_deep_work",
+      "target": "dopamine_motivation",
+      "type": "sourced_from",
+      "strength": 0.68,
+      "relationship": "Newport discusses how digital distractions hijack dopamine and prevent focus"
+    },
+    {
+      "source": "src_eecs281",
+      "target": "algorithms_ds",
+      "type": "sourced_from",
+      "strength": 0.95,
+      "relationship": "EECS 281 is the core algorithms and data structures course"
+    },
+    {
+      "source": "src_eecs281",
+      "target": "big_o",
+      "type": "sourced_from",
+      "strength": 0.9,
+      "relationship": "Complexity analysis is a central topic in EECS 281"
+    },
+    {
+      "source": "src_eecs281",
+      "target": "recursion",
+      "type": "sourced_from",
+      "strength": 0.82,
+      "relationship": "Recursive algorithms are covered extensively in EECS 281"
+    },
+    {
+      "source": "src_internship_journal",
+      "target": "imposter_syndrome",
+      "type": "sourced_from",
+      "strength": 0.88,
+      "relationship": "Personal experience with imposter syndrome during the internship"
+    },
+    {
+      "source": "src_internship_journal",
+      "target": "code_review",
+      "type": "sourced_from",
+      "strength": 0.8,
+      "relationship": "First real experience with professional code review processes"
+    },
+    {
+      "source": "src_internship_journal",
+      "target": "collaboration_competition",
+      "type": "sourced_from",
+      "strength": 0.72,
+      "relationship": "Learned that real work is collaborative, not competitive like school"
+    },
+    {
+      "source": "src_huberman_sleep",
+      "target": "sleep_quality",
+      "type": "sourced_from",
+      "strength": 0.95,
+      "relationship": "Huberman's podcast is the definitive source on sleep optimization science"
+    },
+    {
+      "source": "src_huberman_sleep",
+      "target": "sleep_memory",
+      "type": "sourced_from",
+      "strength": 0.9,
+      "relationship": "Detailed neuroscience of sleep-memory consolidation mechanisms"
+    },
+    {
+      "source": "src_huberman_sleep",
+      "target": "dopamine_motivation",
+      "type": "sourced_from",
+      "strength": 0.72,
+      "relationship": "Huberman explains how sleep regulates dopamine baseline levels"
+    },
+    {
+      "source": "src_3b1b_neural",
+      "target": "neural_networks",
+      "type": "sourced_from",
+      "strength": 0.95,
+      "relationship": "3Blue1Brown's series is the best visual explanation of neural networks"
+    },
+    {
+      "source": "src_3b1b_neural",
+      "target": "machine_learning",
+      "type": "sourced_from",
+      "strength": 0.82,
+      "relationship": "The series contextualizes neural networks within the broader ML landscape"
+    },
+    {
+      "source": "src_pg_great_work",
+      "target": "first_principles",
+      "type": "sourced_from",
+      "strength": 0.85,
+      "relationship": "Paul Graham advocates for first-principles thinking about your career and work"
+    },
+    {
+      "source": "src_pg_great_work",
+      "target": "deliberate_practice",
+      "type": "sourced_from",
+      "strength": 0.72,
+      "relationship": "Graham emphasizes hard work on things you genuinely care about"
+    },
+    {
+      "source": "src_pg_great_work",
+      "target": "growth_mindset",
+      "type": "sourced_from",
+      "strength": 0.68,
+      "relationship": "The essay's core message is that great work comes from effort and curiosity, not innate talent"
+    },
+    {
+      "source": "src_naval_leverage",
+      "target": "compound_interest",
+      "type": "sourced_from",
+      "strength": 0.85,
+      "relationship": "Naval discusses how leverage creates compound returns on your effort"
+    },
+    {
+      "source": "src_naval_leverage",
+      "target": "skill_stacking",
+      "type": "sourced_from",
+      "strength": 0.82,
+      "relationship": "Naval's concept of 'specific knowledge' is about unique skill combinations"
+    },
+    {
+      "source": "src_naval_leverage",
+      "target": "personal_brand",
+      "type": "sourced_from",
+      "strength": 0.75,
+      "relationship": "Naval advocates for building accountability under your own name"
+    },
+    {
+      "source": "person_james_clear",
+      "target": "habit_stacking",
+      "type": "mentioned_by",
+      "strength": 0.95,
+      "relationship": "James Clear created the habit stacking framework"
+    },
+    {
+      "source": "person_james_clear",
+      "target": "compound_interest",
+      "type": "mentioned_by",
+      "strength": 0.82,
+      "relationship": "Clear uses compound interest as his central metaphor for tiny habit gains"
+    },
+    {
+      "source": "person_james_clear",
+      "target": "feedback_loops",
+      "type": "mentioned_by",
+      "strength": 0.78,
+      "relationship": "Clear's habit loop model is built on feedback loop theory"
+    },
+    {
+      "source": "person_cal_newport",
+      "target": "deep_work",
+      "type": "mentioned_by",
+      "strength": 0.98,
+      "relationship": "Cal Newport literally wrote the book on deep work"
+    },
+    {
+      "source": "person_cal_newport",
+      "target": "skill_stacking",
+      "type": "mentioned_by",
+      "strength": 0.7,
+      "relationship": "Newport's 'career capital' theory is about accumulating rare and valuable skills"
+    },
+    {
+      "source": "person_huberman",
+      "target": "sleep_quality",
+      "type": "mentioned_by",
+      "strength": 0.92,
+      "relationship": "Huberman's sleep protocols are the gold standard for evidence-based sleep optimization"
+    },
+    {
+      "source": "person_huberman",
+      "target": "dopamine_motivation",
+      "type": "mentioned_by",
+      "strength": 0.88,
+      "relationship": "Huberman's dopamine episodes changed how millions think about motivation"
+    },
+    {
+      "source": "person_huberman",
+      "target": "exercise_brain",
+      "type": "mentioned_by",
+      "strength": 0.82,
+      "relationship": "Huberman frequently discusses exercise as the most powerful brain enhancer"
+    },
+    {
+      "source": "person_pg",
+      "target": "first_principles",
+      "type": "mentioned_by",
+      "strength": 0.88,
+      "relationship": "Paul Graham's essays are masterclasses in first-principles thinking"
+    },
+    {
+      "source": "person_pg",
+      "target": "side_projects",
+      "type": "mentioned_by",
+      "strength": 0.8,
+      "relationship": "Graham encourages building things you want to exist - the best side projects"
+    },
+    {
+      "source": "person_karpathy",
+      "target": "neural_networks",
+      "type": "mentioned_by",
+      "strength": 0.95,
+      "relationship": "Karpathy's tutorials and lectures define modern deep learning education"
+    },
+    {
+      "source": "person_karpathy",
+      "target": "machine_learning",
+      "type": "mentioned_by",
+      "strength": 0.9,
+      "relationship": "Karpathy bridges the gap between ML theory and practical implementation"
+    },
+    {
+      "source": "person_professor",
+      "target": "growth_mindset",
+      "type": "mentioned_by",
+      "strength": 0.82,
+      "relationship": "My professor modeled growth mindset: showing that expertise comes from struggle, not talent"
+    },
+    {
+      "source": "person_professor",
+      "target": "debugging",
+      "type": "mentioned_by",
+      "strength": 0.75,
+      "relationship": "Taught me that debugging is not failure - it's the actual process of understanding"
+    },
+    {
+      "source": "proj_orbit",
+      "target": "algorithms_ds",
+      "type": "applied_in",
+      "strength": 0.88,
+      "relationship": "ORBIT's core is graph algorithms: traversal, pathfinding, community detection"
+    },
+    {
+      "source": "proj_orbit",
+      "target": "machine_learning",
+      "type": "applied_in",
+      "strength": 0.72,
+      "relationship": "ORBIT uses LLMs for concept extraction and insight generation"
+    },
+    {
+      "source": "proj_orbit",
+      "target": "spaced_repetition",
+      "type": "applied_in",
+      "strength": 0.85,
+      "relationship": "ORBIT's edge decay model implements spaced repetition as a graph operation"
+    },
+    {
+      "source": "proj_orbit",
+      "target": "forgetting_curve",
+      "type": "applied_in",
+      "strength": 0.82,
+      "relationship": "Edge weight decay follows the Ebbinghaus forgetting curve"
+    },
+    {
+      "source": "proj_study_tracker",
+      "target": "spaced_repetition",
+      "type": "applied_in",
+      "strength": 0.9,
+      "relationship": "The study tracker app implements spaced repetition scheduling"
+    },
+    {
+      "source": "proj_study_tracker",
+      "target": "side_projects",
+      "type": "applied_in",
+      "strength": 0.85,
+      "relationship": "Started as a side project to solve my own study scheduling problem"
+    },
+    {
+      "source": "proj_study_tracker",
+      "target": "portfolio_projects",
+      "type": "applied_in",
+      "strength": 0.82,
+      "relationship": "Became a key portfolio piece that demonstrated full-stack skills"
+    },
+    {
+      "source": "proj_internship_prep",
+      "target": "interview_prep",
+      "type": "applied_in",
+      "strength": 0.92,
+      "relationship": "Systematic interview preparation is the core of the internship prep project"
+    },
+    {
+      "source": "proj_internship_prep",
+      "target": "algorithms_ds",
+      "type": "applied_in",
+      "strength": 0.88,
+      "relationship": "LeetCode and algorithm study are the technical core of interview prep"
+    },
+    {
+      "source": "proj_internship_prep",
+      "target": "deliberate_practice",
+      "type": "applied_in",
+      "strength": 0.8,
+      "relationship": "Treating interview prep as deliberate practice, not random problem solving"
+    },
+    {
+      "source": "insight_cramming_tech_debt",
+      "target": "cramming",
+      "type": "sourced_from",
+      "strength": 0.92,
+      "relationship": "Starting concept in the discovery path"
+    },
+    {
+      "source": "insight_cramming_tech_debt",
+      "target": "forgetting_curve",
+      "type": "sourced_from",
+      "strength": 0.88,
+      "relationship": "Key link showing how both cramming and tech debt follow exponential decay"
+    },
+    {
+      "source": "insight_cramming_tech_debt",
+      "target": "technical_debt",
+      "type": "sourced_from",
+      "strength": 0.9,
+      "relationship": "The CS concept that mirrors cramming's pattern"
+    },
+    {
+      "source": "insight_cramming_tech_debt",
+      "target": "code_review",
+      "type": "sourced_from",
+      "strength": 0.72,
+      "relationship": "Code review as the preventive equivalent of spaced repetition for code"
+    },
+    {
+      "source": "insight_social_network_algorithm",
+      "target": "networking_social",
+      "type": "sourced_from",
+      "strength": 0.88,
+      "relationship": "Starting concept: social networking behaviors"
+    },
+    {
+      "source": "insight_social_network_algorithm",
+      "target": "network_effects",
+      "type": "sourced_from",
+      "strength": 0.85,
+      "relationship": "Network effects bridge social and technical graph concepts"
+    },
+    {
+      "source": "insight_social_network_algorithm",
+      "target": "weak_ties",
+      "type": "sourced_from",
+      "strength": 0.9,
+      "relationship": "Weak ties theory maps directly to BFS in graph algorithms"
+    },
+    {
+      "source": "insight_social_network_algorithm",
+      "target": "algorithms_ds",
+      "type": "sourced_from",
+      "strength": 0.88,
+      "relationship": "End concept: graph algorithms that describe social network behavior"
+    },
+    {
+      "source": "network_effects",
+      "target": "weak_ties",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Weak ties create the network bridges that make network effects possible"
+    },
+    {
+      "source": "dunning_kruger",
+      "target": "machine_learning",
+      "type": "relates_to",
+      "strength": 0.68,
+      "relationship": "The Dunning-Kruger confidence curve resembles an ML model's calibration problem"
+    },
+    {
+      "source": "dopamine_motivation",
+      "target": "decision_fatigue",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Dopamine depletion from too many decisions impairs motivation and willpower"
+    },
+    {
+      "source": "decision_fatigue",
+      "target": "parkinsons_law",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Without deadlines (Parkinson's Law), decision fatigue compounds from endless open choices"
+    },
+    {
+      "source": "parkinsons_law",
+      "target": "deep_work",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Artificial deadlines from Parkinson's Law create the urgency that enables deep work focus"
+    },
+    {
+      "source": "interleaving",
+      "target": "active_recall",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "Interleaving forces active recall by requiring you to identify which strategy to apply"
+    },
+    {
+      "source": "interleaving",
+      "target": "retrieval_practice",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Mixed practice is a form of retrieval practice - pulling different methods from memory"
+    },
+    {
+      "source": "apis",
+      "target": "side_projects",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "APIs let side projects punch above their weight by integrating existing services"
+    },
+    {
+      "source": "apis",
+      "target": "open_source",
+      "type": "relates_to",
+      "strength": 0.68,
+      "relationship": "Open source projects expose APIs that let anyone build on top of them"
+    },
+    {
+      "source": "stack_overflow",
+      "target": "debugging",
+      "type": "relates_to",
+      "strength": 0.78,
+      "relationship": "Stack Overflow is where most developers go when debugging gets stuck"
+    },
+    {
+      "source": "stack_overflow",
+      "target": "open_source",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "Stack Overflow culture mirrors open source: community-driven knowledge sharing"
+    },
+    {
+      "source": "anchoring",
+      "target": "confirmation_bias",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "Once an anchor is set, confirmation bias makes you seek information supporting that reference point"
+    },
+    {
+      "source": "anchoring",
+      "target": "system1_system2",
+      "type": "relates_to",
+      "strength": 0.72,
+      "relationship": "Anchoring is a System 1 shortcut that System 2 fails to fully correct"
+    },
+    {
+      "source": "brainstorming",
+      "target": "creative_block",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "brainstorming is the antidote to creative block"
+    },
+    {
+      "source": "brainstorming",
+      "target": "remix_culture",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "brainstorming often works by remixing existing ideas"
+    },
+    {
+      "source": "design_thinking",
+      "target": "iteration_in_art",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "both rely on rapid prototyping and refining"
+    },
+    {
+      "source": "constraint_breeds_creativity",
+      "target": "creative_block",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "adding constraints can break through creative blocks"
+    },
+    {
+      "source": "cross_pollination",
+      "target": "remix_culture",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "both are about combining ideas from different sources"
+    },
+    {
+      "source": "storytelling",
+      "target": "design_thinking",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "great design tells a story about the user experience"
+    },
+    {
+      "source": "iteration_in_art",
+      "target": "creative_block",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "just iterating on bad work beats waiting for perfection"
+    },
+    {
+      "source": "brainstorming",
+      "target": "growth_mindset",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "both encourage trying without fear of failure"
+    },
+    {
+      "source": "brainstorming",
+      "target": "analysis_paralysis",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "brainstorming fights paralysis by removing judgment"
+    },
+    {
+      "source": "creative_block",
+      "target": "burnout",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "burnout is one of the biggest causes of creative block"
+    },
+    {
+      "source": "creative_block",
+      "target": "dopamine_motivation",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "low dopamine kills creative motivation"
+    },
+    {
+      "source": "remix_culture",
+      "target": "open_source",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "open source is remix culture for code"
+    },
+    {
+      "source": "storytelling",
+      "target": "feynman_technique",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "both are about making complex things simple and memorable"
+    },
+    {
+      "source": "storytelling",
+      "target": "communication_skills",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "storytelling is the most powerful communication tool"
+    },
+    {
+      "source": "design_thinking",
+      "target": "first_principles",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "both start by deeply understanding the real problem"
+    },
+    {
+      "source": "design_thinking",
+      "target": "agile_dev",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "both use iterative prototyping over big upfront planning"
+    },
+    {
+      "source": "iteration_in_art",
+      "target": "agile_dev",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "agile sprints are iteration in art applied to software"
+    },
+    {
+      "source": "constraint_breeds_creativity",
+      "target": "abstraction",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "abstraction is about working within constraints by hiding complexity"
+    },
+    {
+      "source": "constraint_breeds_creativity",
+      "target": "parkinsons_law",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "time constraints force focused creative output"
+    },
+    {
+      "source": "cross_pollination",
+      "target": "diverse_perspectives",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "diverse perspectives enable cross pollination of ideas"
+    },
+    {
+      "source": "cross_pollination",
+      "target": "skill_stacking",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "combining skills from different fields creates unique value"
+    },
+    {
+      "source": "budgeting",
+      "target": "lifestyle_creep",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "budgeting is the main defense against lifestyle creep"
+    },
+    {
+      "source": "budgeting",
+      "target": "emergency_fund",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "you need a budget to actually build an emergency fund"
+    },
+    {
+      "source": "investing_early",
+      "target": "index_funds",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "index funds are the simplest way to start investing early"
+    },
+    {
+      "source": "investing_early",
+      "target": "inflation",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "investing beats inflation, cash savings don't"
+    },
+    {
+      "source": "passive_income",
+      "target": "side_hustles",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "side hustles can evolve into passive income streams"
+    },
+    {
+      "source": "index_funds",
+      "target": "passive_income",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "index fund dividends are a form of passive income"
+    },
+    {
+      "source": "lifestyle_creep",
+      "target": "emergency_fund",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "lifestyle creep drains the money you should put in emergency fund"
+    },
+    {
+      "source": "investing_early",
+      "target": "compound_interest",
+      "type": "builds_upon",
+      "strength": 0.9,
+      "relationship": "the whole point of investing early is to let compound interest work longer"
+    },
+    {
+      "source": "investing_early",
+      "target": "spaced_repetition",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "both exploit the same exponential curve over time"
+    },
+    {
+      "source": "passive_income",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "reinvested passive income compounds over time"
+    },
+    {
+      "source": "lifestyle_creep",
+      "target": "sunk_cost",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "both trap you into spending more than you should"
+    },
+    {
+      "source": "lifestyle_creep",
+      "target": "loss_aversion",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "once you upgrade your lifestyle you hate going back"
+    },
+    {
+      "source": "side_hustles",
+      "target": "side_projects",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "side projects can become side hustles when they solve real problems"
+    },
+    {
+      "source": "side_hustles",
+      "target": "skill_stacking",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "side hustles build skills that stack with your main career"
+    },
+    {
+      "source": "budgeting",
+      "target": "decision_fatigue",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "a budget removes daily spending decisions"
+    },
+    {
+      "source": "budgeting",
+      "target": "pareto_80_20",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "80% of your spending usually comes from 20% of categories"
+    },
+    {
+      "source": "inflation",
+      "target": "opportunity_cost",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "not investing has a real cost because inflation eats your savings"
+    },
+    {
+      "source": "evolution",
+      "target": "natural_selection",
+      "type": "builds_upon",
+      "strength": 0.9,
+      "relationship": "natural selection is the main mechanism driving evolution"
+    },
+    {
+      "source": "evolution",
+      "target": "adaptation",
+      "type": "builds_upon",
+      "strength": 0.85,
+      "relationship": "adaptation is the outcome of evolutionary pressure"
+    },
+    {
+      "source": "natural_selection",
+      "target": "survival_of_fittest",
+      "type": "relates_to",
+      "strength": 0.85,
+      "relationship": "survival of the fittest is the popular phrase for natural selection"
+    },
+    {
+      "source": "chaos_theory",
+      "target": "butterfly_effect",
+      "type": "builds_upon",
+      "strength": 0.9,
+      "relationship": "the butterfly effect is the most famous example of chaos theory"
+    },
+    {
+      "source": "ecosystems",
+      "target": "adaptation",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "organisms adapt to their specific ecosystem"
+    },
+    {
+      "source": "entropy",
+      "target": "chaos_theory",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "both describe how systems move toward disorder"
+    },
+    {
+      "source": "ecosystems",
+      "target": "natural_selection",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "the ecosystem shapes which traits get selected for"
+    },
+    {
+      "source": "evolution",
+      "target": "agile_dev",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "agile iterates and adapts just like evolution does"
+    },
+    {
+      "source": "evolution",
+      "target": "iteration_in_art",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "both are about gradual improvement through many small changes"
+    },
+    {
+      "source": "natural_selection",
+      "target": "collaboration_competition",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "competition in markets works like natural selection"
+    },
+    {
+      "source": "entropy",
+      "target": "forgetting_curve",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "memories decay just like everything else trends toward disorder"
+    },
+    {
+      "source": "entropy",
+      "target": "technical_debt",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "codebases rot without maintenance just like entropy in physics"
+    },
+    {
+      "source": "chaos_theory",
+      "target": "second_order_thinking",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "small actions cascading into big consequences is what second order thinking tries to predict"
+    },
+    {
+      "source": "butterfly_effect",
+      "target": "second_order_thinking",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "the butterfly effect is why second order thinking matters so much"
+    },
+    {
+      "source": "ecosystems",
+      "target": "network_effects",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "both are interconnected systems where every part affects the whole"
+    },
+    {
+      "source": "adaptation",
+      "target": "growth_mindset",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "growth mindset is the human version of adaptation"
+    },
+    {
+      "source": "survival_of_fittest",
+      "target": "interview_prep",
+      "type": "relates_to",
+      "strength": 0.4,
+      "relationship": "job hunting is survival of the fittest in the career ecosystem"
+    },
+    {
+      "source": "flavor_pairing",
+      "target": "seasoning",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "good seasoning depends on understanding which flavors pair well"
+    },
+    {
+      "source": "mise_en_place",
+      "target": "meal_prep",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "both are about preparation and organization before the actual cooking"
+    },
+    {
+      "source": "recipe_vs_improvising",
+      "target": "seasoning",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "knowing how to season is what lets you improvise instead of following recipes"
+    },
+    {
+      "source": "fermentation",
+      "target": "flavor_pairing",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "fermentation creates complex flavors that pair uniquely"
+    },
+    {
+      "source": "recipe_vs_improvising",
+      "target": "improvisation",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "same idea in kitchen and music, learn the rules then break them"
+    },
+    {
+      "source": "mise_en_place",
+      "target": "pomodoro",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "both are about setting up structure before doing the actual work"
+    },
+    {
+      "source": "mise_en_place",
+      "target": "habit_stacking",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "prepping everything in advance is habit stacking for cooking"
+    },
+    {
+      "source": "recipe_vs_improvising",
+      "target": "abstraction",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "recipes are abstractions and improvising is writing your own"
+    },
+    {
+      "source": "recipe_vs_improvising",
+      "target": "first_principles",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "improvising in cooking requires understanding first principles of flavor"
+    },
+    {
+      "source": "fermentation",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.45,
+      "relationship": "both are about patience and letting time do the transformation"
+    },
+    {
+      "source": "meal_prep",
+      "target": "habit_stacking",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "meal prep is a habit you stack with your weekly routine"
+    },
+    {
+      "source": "meal_prep",
+      "target": "parkinsons_law",
+      "type": "relates_to",
+      "strength": 0.45,
+      "relationship": "batch cooking in a set time beats spending all week on meals"
+    },
+    {
+      "source": "progressive_overload",
+      "target": "recovery",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "overload without recovery just leads to injury not growth"
+    },
+    {
+      "source": "progressive_overload",
+      "target": "muscle_memory",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "progressive overload builds the muscle memory that sticks"
+    },
+    {
+      "source": "coaching",
+      "target": "team_chemistry",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "a good coach builds team chemistry not just individual skill"
+    },
+    {
+      "source": "practice_vs_game",
+      "target": "coaching",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "coaches design practice to prepare for game situations"
+    },
+    {
+      "source": "team_chemistry",
+      "target": "practice_vs_game",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "chemistry built in practice shows up in game performance"
+    },
+    {
+      "source": "progressive_overload",
+      "target": "deliberate_practice",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "both are about systematically increasing difficulty at the edge of ability"
+    },
+    {
+      "source": "progressive_overload",
+      "target": "learning_curves",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "you hit plateaus in the gym just like in learning"
+    },
+    {
+      "source": "recovery",
+      "target": "sleep_quality",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "sleep is the most important recovery tool for both body and brain"
+    },
+    {
+      "source": "recovery",
+      "target": "burnout",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "skipping recovery leads to burnout in fitness and in work"
+    },
+    {
+      "source": "muscle_memory",
+      "target": "spaced_repetition",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "muscles remember through repeated practice just like spaced repetition for the brain"
+    },
+    {
+      "source": "muscle_memory",
+      "target": "habit_stacking",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "movements become automatic habits through repetition"
+    },
+    {
+      "source": "team_chemistry",
+      "target": "group_dynamics",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "team chemistry is group dynamics applied to sports"
+    },
+    {
+      "source": "team_chemistry",
+      "target": "network_effects",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "good team chemistry creates a network effect where everyone elevates everyone"
+    },
+    {
+      "source": "coaching",
+      "target": "mentorship",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "coaching is mentorship applied to performance"
+    },
+    {
+      "source": "coaching",
+      "target": "feedback_loops",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "great coaching is all about tight feedback loops"
+    },
+    {
+      "source": "practice_vs_game",
+      "target": "deliberate_practice",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "deliberate practice in training prepares you for real performance"
+    },
+    {
+      "source": "practice_vs_game",
+      "target": "interview_prep",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "mock interviews are practice, real interviews are the game"
+    },
+    {
+      "source": "culture_shock",
+      "target": "perspective_shifts",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "culture shock forces perspective shifts you can't get any other way"
+    },
+    {
+      "source": "culture_shock",
+      "target": "comfort_zone",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "culture shock is what happens when you leave your comfort zone completely"
+    },
+    {
+      "source": "language_learning",
+      "target": "immersion",
+      "type": "relates_to",
+      "strength": 0.85,
+      "relationship": "immersion is the fastest path to learning a language"
+    },
+    {
+      "source": "comfort_zone",
+      "target": "immersion",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "immersion forces you out of your comfort zone"
+    },
+    {
+      "source": "perspective_shifts",
+      "target": "immersion",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "immersion in new environments drives perspective shifts"
+    },
+    {
+      "source": "culture_shock",
+      "target": "first_principles",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "culture shock makes you question assumptions the same way first principles thinking does"
+    },
+    {
+      "source": "culture_shock",
+      "target": "growth_mindset",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "adapting to a new culture requires believing you can grow and change"
+    },
+    {
+      "source": "language_learning",
+      "target": "spaced_repetition",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "spaced repetition is the most effective way to memorize vocabulary"
+    },
+    {
+      "source": "language_learning",
+      "target": "active_recall",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "flashcards for language use active recall to build fluency"
+    },
+    {
+      "source": "perspective_shifts",
+      "target": "diverse_perspectives",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "experiencing different perspectives is what creates perspective shifts"
+    },
+    {
+      "source": "comfort_zone",
+      "target": "growth_mindset",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "growth mindset is what gives you courage to leave your comfort zone"
+    },
+    {
+      "source": "comfort_zone",
+      "target": "deliberate_practice",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "deliberate practice requires working at the edge of your comfort zone"
+    },
+    {
+      "source": "immersion",
+      "target": "deep_work",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "deep work is immersion applied to knowledge tasks"
+    },
+    {
+      "source": "rhythm",
+      "target": "music_theory",
+      "type": "builds_upon",
+      "strength": 0.75,
+      "relationship": "rhythm is a fundamental building block of music theory"
+    },
+    {
+      "source": "improvisation",
+      "target": "music_theory",
+      "type": "builds_upon",
+      "strength": 0.7,
+      "relationship": "you need to know the theory before you can break the rules"
+    },
+    {
+      "source": "practice_routines",
+      "target": "ear_training",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "ear training should be part of every practice routine"
+    },
+    {
+      "source": "improvisation",
+      "target": "ear_training",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "good ears are essential for improvising over chord changes"
+    },
+    {
+      "source": "rhythm",
+      "target": "pomodoro",
+      "type": "relates_to",
+      "strength": 0.45,
+      "relationship": "pomodoro creates a rhythm of work and rest like beats in music"
+    },
+    {
+      "source": "rhythm",
+      "target": "habit_stacking",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "habits have a rhythm to them like music has a beat"
+    },
+    {
+      "source": "improvisation",
+      "target": "debugging",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "both require thinking on your feet and trying things until something works"
+    },
+    {
+      "source": "improvisation",
+      "target": "brainstorming",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "both are about generating ideas without overthinking"
+    },
+    {
+      "source": "music_theory",
+      "target": "abstraction",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "music theory abstracts sound into patterns and rules like code abstracts logic"
+    },
+    {
+      "source": "practice_routines",
+      "target": "deliberate_practice",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "a good practice routine is deliberate practice applied to music"
+    },
+    {
+      "source": "practice_routines",
+      "target": "pomodoro",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "structured practice sessions work like pomodoro blocks"
+    },
+    {
+      "source": "ear_training",
+      "target": "active_recall",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "ear training is active recall for sounds instead of facts"
+    },
+    {
+      "source": "first_impressions",
+      "target": "vulnerability",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "being vulnerable in first meetings can make impressions more authentic"
+    },
+    {
+      "source": "vulnerability",
+      "target": "boundaries",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "being vulnerable requires having boundaries so people don't take advantage"
+    },
+    {
+      "source": "active_listening",
+      "target": "conflict_resolution",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "you can't resolve conflict without actually listening to the other side"
+    },
+    {
+      "source": "boundaries",
+      "target": "conflict_resolution",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "setting boundaries often requires navigating conflict"
+    },
+    {
+      "source": "first_impressions",
+      "target": "anchoring",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "first impressions are an anchoring effect for how people see you"
+    },
+    {
+      "source": "first_impressions",
+      "target": "confirmation_bias",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "people seek information that confirms their first impression of you"
+    },
+    {
+      "source": "vulnerability",
+      "target": "imposter_syndrome",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "imposter syndrome makes vulnerability feel terrifying"
+    },
+    {
+      "source": "vulnerability",
+      "target": "building_trust",
+      "type": "relates_to",
+      "strength": 0.75,
+      "relationship": "showing vulnerability is the fastest way to build genuine trust"
+    },
+    {
+      "source": "boundaries",
+      "target": "burnout",
+      "type": "relates_to",
+      "strength": 0.65,
+      "relationship": "poor boundaries are the number one cause of burnout"
+    },
+    {
+      "source": "boundaries",
+      "target": "work_life_balance",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "work life balance is impossible without setting clear boundaries"
+    },
+    {
+      "source": "active_listening",
+      "target": "communication_skills",
+      "type": "relates_to",
+      "strength": 0.8,
+      "relationship": "active listening is the most underrated communication skill"
+    },
+    {
+      "source": "active_listening",
+      "target": "empathy_leadership",
+      "type": "relates_to",
+      "strength": 0.7,
+      "relationship": "you can't lead with empathy if you don't listen first"
+    },
+    {
+      "source": "conflict_resolution",
+      "target": "feedback_loops",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "conflict resolution creates healthy feedback loops in relationships"
+    },
+    {
+      "source": "conflict_resolution",
+      "target": "collaboration_competition",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "knowing how to resolve conflict turns competition into collaboration"
+    },
+    {
+      "source": "design_thinking",
+      "target": "recipe_vs_improvising",
+      "type": "relates_to",
+      "strength": 0.45,
+      "relationship": "both balance following a process with creative improvisation"
+    },
+    {
+      "source": "progressive_overload",
+      "target": "investing_early",
+      "type": "relates_to",
+      "strength": 0.4,
+      "relationship": "both are about small consistent increases that compound over time"
+    },
+    {
+      "source": "entropy",
+      "target": "budgeting",
+      "type": "relates_to",
+      "strength": 0.4,
+      "relationship": "money falls into disorder without a budget just like entropy"
+    },
+    {
+      "source": "natural_selection",
+      "target": "code_review",
+      "type": "relates_to",
+      "strength": 0.4,
+      "relationship": "code review selects the best code to survive like natural selection"
+    },
+    {
+      "source": "fermentation",
+      "target": "learning_curves",
+      "type": "relates_to",
+      "strength": 0.35,
+      "relationship": "some things just take time to develop and you can't rush the process"
+    },
+    {
+      "source": "storytelling",
+      "target": "personal_brand",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "your personal brand is the story people tell about you when you're not in the room"
+    },
+    {
+      "source": "coaching",
+      "target": "code_review",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "code review is coaching for your programming skills"
+    },
+    {
+      "source": "meal_prep",
+      "target": "deep_work",
+      "type": "relates_to",
+      "strength": 0.4,
+      "relationship": "prepping meals saves decision energy for deep work"
+    },
+    {
+      "source": "passive_income",
+      "target": "apis",
+      "type": "relates_to",
+      "strength": 0.35,
+      "relationship": "building API products can generate passive income"
+    },
+    {
+      "source": "language_learning",
+      "target": "neural_networks",
+      "type": "relates_to",
+      "strength": 0.45,
+      "relationship": "language models in AI are inspired by how humans learn language"
+    },
+    {
+      "source": "comfort_zone",
+      "target": "imposter_syndrome",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "leaving your comfort zone triggers imposter syndrome"
+    },
+    {
+      "source": "cross_pollination",
+      "target": "improvisation",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "the best improvisers borrow from other genres and art forms"
+    },
+    {
+      "source": "ecosystems",
+      "target": "open_source",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "open source communities are digital ecosystems"
+    },
+    {
+      "source": "adaptation",
+      "target": "agile_dev",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "agile development is about adapting to change quickly"
+    },
+    {
+      "source": "brainstorming",
+      "target": "flow_state",
+      "type": "relates_to",
+      "strength": 0.45,
+      "relationship": "a good brainstorm session can put you in flow"
+    },
+    {
+      "source": "muscle_memory",
+      "target": "retrieval_practice",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "both are about making retrieval automatic through repetition"
+    },
+    {
+      "source": "perspective_shifts",
+      "target": "debugging",
+      "type": "relates_to",
+      "strength": 0.45,
+      "relationship": "the best debugging happens when you shift perspective on the problem"
+    },
+    {
+      "source": "seasoning",
+      "target": "pareto_80_20",
+      "type": "relates_to",
+      "strength": 0.4,
+      "relationship": "getting seasoning right is 20% of the effort but 80% of the flavor"
+    },
+    {
+      "source": "index_funds",
+      "target": "pareto_80_20",
+      "type": "relates_to",
+      "strength": 0.5,
+      "relationship": "index funds are the 80/20 of investing, minimal effort for solid returns"
+    },
+    {
+      "source": "inflation",
+      "target": "compound_interest",
+      "type": "relates_to",
+      "strength": 0.6,
+      "relationship": "inflation compounds against you the same way interest compounds for you"
+    },
+    {
+      "source": "emergency_fund",
+      "target": "decision_fatigue",
+      "type": "relates_to",
+      "strength": 0.45,
+      "relationship": "having an emergency fund removes stressful financial decisions"
+    },
+    {
+      "source": "butterfly_effect",
+      "target": "feedback_loops",
+      "type": "relates_to",
+      "strength": 0.55,
+      "relationship": "feedback loops can amplify tiny changes into butterfly effects"
+    },
+    {
+      "source": "survival_of_fittest",
+      "target": "growth_mindset",
+      "type": "relates_to",
+      "strength": 0.45,
+      "relationship": "adapting and growing is what makes you fit for survival"
+    },
+    {
+      "source": "flavor_pairing",
+      "target": "cross_pollination",
+      "type": "relates_to",
+      "strength": 0.4,
+      "relationship": "unexpected flavor combos work like cross pollination of ingredients"
+    },
+    {
+      "source": "cramming",
+      "target": "fermentation",
+      "type": "relates_to",
+      "strength": 0.15,
+      "relationship": "both involve waiting but in opposite ways"
+    },
+    {
+      "source": "burnout",
+      "target": "rhythm",
+      "type": "relates_to",
+      "strength": 0.12,
+      "relationship": "finding your rhythm prevents burnout"
+    },
+    {
+      "source": "recursion",
+      "target": "storytelling",
+      "type": "relates_to",
+      "strength": 0.18,
+      "relationship": "stories within stories"
+    },
+    {
+      "source": "entropy",
+      "target": "meal_prep",
+      "type": "relates_to",
+      "strength": 0.1,
+      "relationship": "meal prep fights the entropy of your diet"
+    },
+    {
+      "source": "comfort_zone",
+      "target": "flavor_pairing",
+      "type": "relates_to",
+      "strength": 0.2,
+      "relationship": "trying new flavor combos pushes your comfort zone"
+    },
+    {
+      "source": "imposter_syndrome",
+      "target": "culture_shock",
+      "type": "relates_to",
+      "strength": 0.22,
+      "relationship": "both make you feel like you don't belong"
+    },
+    {
+      "source": "pomodoro",
+      "target": "recovery",
+      "type": "relates_to",
+      "strength": 0.25,
+      "relationship": "both alternate between effort and rest"
+    },
+    {
+      "source": "side_hustles",
+      "target": "improvisation",
+      "type": "relates_to",
+      "strength": 0.14,
+      "relationship": "side hustles require making it up as you go"
+    }
+  ]
+}

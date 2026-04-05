@@ -1,0 +1,254 @@
+/*
+ * ORBIT Day Mode — Clean, warm, professional.
+ *
+ * Notion-inspired light theme. This file ONLY overrides
+ * colors and visual properties from night.css. All layout
+ * rules live in night.css.
+ */
+
+/* ============================================================
+   CSS Custom Properties — Day Mode
+   ============================================================ */
+
+.day-mode {
+    /* Backgrounds */
+    --bg-primary: #F8F6F0;
+    --bg-secondary: #FFFFFF;
+    --bg-tertiary: #F0EDE6;
+    --bg-panel: rgba(255, 255, 255, 0.97);
+    --bg-panel-hover: rgba(245, 243, 238, 0.98);
+    --bg-panel-active: rgba(238, 235, 228, 0.98);
+    --bg-input: rgba(255, 255, 255, 0.9);
+    --bg-input-focus: #FFFFFF;
+    --bg-button: rgba(0, 102, 204, 0.06);
+    --bg-button-hover: rgba(0, 102, 204, 0.12);
+    --bg-button-active: rgba(0, 102, 204, 0.18);
+    --bg-tag: rgba(0, 102, 204, 0.06);
+
+    /* Text */
+    --text-primary: #2D2D3A;
+    --text-secondary: #666680;
+    --text-muted: #999AAA;
+    --text-accent: #0066CC;
+    --text-on-accent: #FFFFFF;
+
+    /* Borders */
+    --border: rgba(0, 0, 0, 0.08);
+    --border-hover: rgba(0, 0, 0, 0.14);
+    --border-active: rgba(0, 102, 204, 0.3);
+    --border-focus: rgba(0, 102, 204, 0.5);
+
+    /* Node type colors — slightly muted */
+    --node-concept: #0099CC;
+    --node-concept-rgb: 0, 153, 204;
+    --node-source: #778899;
+    --node-source-rgb: 119, 136, 153;
+    --node-insight: #CC9900;
+    --node-insight-rgb: 204, 153, 0;
+    --node-question: #8855CC;
+    --node-question-rgb: 136, 85, 204;
+    --node-person: #33AA88;
+    --node-person-rgb: 51, 170, 136;
+    --node-project: #DD7733;
+    --node-project-rgb: 221, 119, 51;
+
+    /* Node shadows (no glow, use drop shadows) */
+    --glow-concept: 0 2px 8px rgba(0, 153, 204, 0.15);
+    --glow-source: 0 2px 6px rgba(119, 136, 153, 0.1);
+    --glow-insight: 0 2px 8px rgba(204, 153, 0, 0.2);
+    --glow-question: 0 2px 8px rgba(136, 85, 204, 0.15);
+    --glow-person: 0 2px 8px rgba(51, 170, 136, 0.12);
+    --glow-project: 0 2px 8px rgba(221, 119, 51, 0.15);
+
+    /* Walker trail colors — vivid enough on light bg */
+    --walker-ingestor: #22AA55;
+    --walker-ingestor-rgb: 34, 170, 85;
+    --walker-explorer: #CC9900;
+    --walker-explorer-rgb: 204, 153, 0;
+    --walker-pathfinder: #0088CC;
+    --walker-pathfinder-rgb: 0, 136, 204;
+    --walker-consolidator: #555566;
+    --walker-consolidator-rgb: 85, 85, 102;
+    --walker-cartographer: #8855CC;
+    --walker-cartographer-rgb: 136, 85, 204;
+
+    /* Edge type colors */
+    --edge-relates: rgba(0, 0, 0, 0.12);
+    --edge-builds: rgba(0, 153, 204, 0.4);
+    --edge-contradicts: rgba(204, 50, 70, 0.5);
+    --edge-sourced: rgba(119, 136, 153, 0.2);
+    --edge-inspired: rgba(204, 153, 0, 0.4);
+
+    /* Semantic colors */
+    --accent: #0066CC;
+    --accent-hover: #0055AA;
+    --accent-muted: rgba(0, 102, 204, 0.08);
+    --danger: #CC3344;
+    --danger-muted: rgba(204, 51, 68, 0.08);
+    --success: #22AA55;
+    --success-muted: rgba(34, 170, 85, 0.08);
+    --warning: #CC9900;
+    --warning-muted: rgba(204, 153, 0, 0.08);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.1);
+    --shadow-glow: none;
+
+    /* Typography — same as night */
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+
+    /* Spacing — same as night */
+    --sidebar-width: 280px;
+    --sidebar-right-width: 300px;
+    --header-height: 52px;
+    --footer-height: 36px;
+
+    /* Transitions — same as night */
+    --transition-fast: 120ms ease;
+    --transition-base: 200ms ease;
+    --transition-slow: 400ms ease;
+
+    /* Radii — same as night */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-full: 9999px;
+}
+
+
+/* ============================================================
+   Day Mode Visual Overrides
+   ============================================================ */
+
+/* No star field or center glow in day mode */
+.day-mode.orbit-app::before,
+.day-mode.orbit-app::after {
+    display: none;
+}
+
+/* No logo glow animation in day mode */
+.day-mode .orbit-logo-icon {
+    filter: none;
+    animation: none;
+    color: var(--accent);
+}
+
+/* Header subtle shadow instead of blur */
+.day-mode .orbit-header {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Sidebars: lighter backdrop */
+.day-mode .orbit-sidebar {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Graph container has a background in day mode */
+.day-mode .orbit-graph-container {
+    background: var(--bg-primary);
+}
+
+/* Query input day mode focus ring */
+.day-mode .query-input:focus {
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.08);
+}
+
+/* Query submit button — solid in day mode */
+.day-mode .query-submit {
+    background: var(--accent);
+    color: var(--text-on-accent);
+    border-color: var(--accent);
+}
+
+.day-mode .query-submit:hover:not(:disabled) {
+    background: var(--accent-hover);
+    box-shadow: var(--shadow-md);
+}
+
+/* Ingest button — solid in day mode */
+.day-mode .ingest-button {
+    background: var(--accent);
+    color: var(--text-on-accent);
+    border-color: var(--accent);
+}
+
+.day-mode .ingest-button:hover:not(:disabled) {
+    background: var(--accent-hover);
+    box-shadow: var(--shadow-md);
+}
+
+/* Ingest textarea focus */
+.day-mode .ingest-textarea:focus {
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.06);
+}
+
+/* Insight card — drop shadow instead of glow */
+.day-mode .insight-card {
+    box-shadow: var(--shadow-sm);
+}
+
+.day-mode .insight-card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+/* Insight icon — no glow in day mode */
+.day-mode .insight-icon {
+    filter: none;
+}
+
+/* Walker indicator — shadow instead of glow */
+.day-mode .walker-indicator {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Walker dots — no box-shadow glow in day */
+.day-mode .walker-ingestor .walker-indicator-dot,
+.day-mode .walker-explorer .walker-indicator-dot,
+.day-mode .walker-pathfinder .walker-indicator-dot,
+.day-mode .walker-consolidator .walker-indicator-dot,
+.day-mode .walker-cartographer .walker-indicator-dot {
+    box-shadow: none;
+}
+
+/* Pathfinder dot — no glow */
+.day-mode .pathfinder-dot {
+    box-shadow: none;
+}
+
+/* Walker status — lighter backdrop */
+.day-mode .walker-status {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+/* Territory bubbles — no backdrop blur in day */
+.day-mode .territory-bubble {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+}
+
+/* Scrollbar — day mode */
+.day-mode ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+}
+
+.day-mode ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Selection — day mode */
+.day-mode ::selection {
+    background: rgba(0, 102, 204, 0.15);
+    color: var(--text-primary);
+}
