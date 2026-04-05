@@ -6,6 +6,8 @@ You paste in your notes. ORBIT builds a knowledge graph out of them and sends li
 
 Built at JacHacks 2026 (UMich Ann Arbor). Solo project.
 
+**Live demo:** https://orbit-roan-seven.vercel.app (hosted on Vercel, backends on Render free tier so first load is slow as the servers wake up, give it 30 seconds)
+
 ## How to run it
 
 You need two things running at the same time.
