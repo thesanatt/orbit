@@ -1,0 +1,8 @@
+jaclang==0.13.5
+jaseci==2.3.12
+byllm==0.6.3
+litellm==1.82.6
+numpy
+scipy
+networkx
+requests

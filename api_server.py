@@ -219,9 +219,11 @@ if __name__ == "__main__":
         sys.exit(1)
 
     load_demo()
-    print(f"ORBIT API Server starting on port 3001")
+    port = int(os.environ.get("PORT", 3001))
+    host = "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1"
+    print(f"ORBIT API Server starting on {host}:{port}")
     print(f"Using model: {MODEL}")
     print(f"Loaded {len(DEMO_DATA.get('nodes', []))} nodes")
-    server = HTTPServer(("127.0.0.1", 3001), OrbitHandler)
-    print("Ready - http://localhost:3001")
+    server = HTTPServer((host, port), OrbitHandler)
+    print(f"Ready - http://{host}:{port}")
     server.serve_forever()

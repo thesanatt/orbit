@@ -7,9 +7,12 @@
  * Falls back gracefully when the Jac backend is unavailable.
  */
 
-// In dev mode, Vite proxies /walker/* to localhost:8000
-// In production, use direct URL
-const JAC_URL = window.location.port === '3000' ? '' : 'http://localhost:8000';
+// Backend URL resolution:
+// 1. VITE_JAC_URL (set in prod via Vercel env) wins
+// 2. In vite dev (port 3000), use '' so vite proxy forwards /walker/*
+// 3. Otherwise hit localhost:8000 directly
+const JAC_URL = import.meta.env.VITE_JAC_URL
+    || (window.location.port === '3000' ? '' : 'http://localhost:8000');
 
 let _token = null;
 

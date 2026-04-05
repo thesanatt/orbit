@@ -559,7 +559,7 @@ export default function App() {
                                     const n = nodeById[id];
                                     return n ? { name: n.name, description: n.description || '' } : { name: id, description: '' };
                                 });
-                                const resp = await fetch('http://localhost:3001/api/ask', {
+                                const resp = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3001'}/api/ask`, {
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify({ question, path_nodes: pathContext }),
@@ -622,7 +622,7 @@ export default function App() {
 
                     let extracted = [];
                     try {
-                        const resp = await fetch('http://localhost:3001/api/ingest', {
+                        const resp = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3001'}/api/ingest`, {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
                             body: JSON.stringify({ text: question, source_type: 'question' }),
@@ -659,7 +659,7 @@ export default function App() {
                     const existingConcepts = (graphData?.nodes || []).filter(n => n.type === 'Concept');
                     let connections = [];
                     try {
-                        const connResp = await fetch('http://localhost:3001/api/connect', {
+                        const connResp = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3001'}/api/connect`, {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
                             body: JSON.stringify({
@@ -816,7 +816,7 @@ export default function App() {
                         // No short path exists — ask LLM to explain the connection
                         // and create a new edge so the graph learns
                         try {
-                            const resp = await fetch('http://localhost:3001/api/ask', {
+                            const resp = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3001'}/api/ask`, {
                                 method: 'POST',
                                 headers: { 'Content-Type': 'application/json' },
                                 body: JSON.stringify({
@@ -882,7 +882,7 @@ export default function App() {
                     return n ? { name: n.name, description: n.description || '' } : { name: id, description: '' };
                 });
                 try {
-                    const resp = await fetch('http://localhost:3001/api/ask', {
+                    const resp = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3001'}/api/ask`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ question, path_nodes: pathContext }),
@@ -977,7 +977,7 @@ export default function App() {
             // Extract concepts using LLM (falls back to word extraction if API unavailable)
             let extractedConcepts = [];
             try {
-                const resp = await fetch('http://localhost:3001/api/ingest', {
+                const resp = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3001'}/api/ingest`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ text, source_type: sourceType }),
@@ -1082,7 +1082,7 @@ export default function App() {
 
             if (genuinelyNew.length > 0) {
                 try {
-                    const connectResp = await fetch('http://localhost:3001/api/connect', {
+                    const connectResp = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3001'}/api/connect`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
@@ -1267,7 +1267,7 @@ export default function App() {
             return n ? { name: n.name, description: n.description || '' } : { name: id, description: '' };
         });
         try {
-            const resp = await fetch('http://localhost:3001/api/ask', {
+            const resp = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3001'}/api/ask`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ question, path_nodes: pathContext }),
